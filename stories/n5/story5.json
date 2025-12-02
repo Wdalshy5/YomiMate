@@ -1,0 +1,11 @@
+{
+  "title": "しごとと かいしゃ",
+  "text": "わたしは かいしゃで はたらきます。しごとは 九時から 五時までです。かいしゃは えきから とおいです。でんしゃで いきます。",
+  "english": "I work at a company. Work is from 9 to 5. The company is far from the station. I go by train.",
+  "vocab": [
+    {"word": "しごと", "meaning": "work"},
+    {"word": "かいしゃ", "meaning": "company"},
+    {"word": "はたらきます", "meaning": "work"},
+    {"word": "でんしゃ", "meaning": "train"}
+  ]
+}

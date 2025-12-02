@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ story.title }}</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+.highlight { 
+    background-color: yellow; 
+    transition: background-color 0.2s; 
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 2px 0;
+}
+.sentence {
+    display: block;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+.title-highlight {
+    background-color: yellow;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+    padding: 2px 8px;
+    display: inline-block;
+}
+</style>
+</head>
+<body class="bg-gray-50 p-6">
+<div class="max-w-2xl mx-auto bg-white p-6 rounded shadow">
+    <h1 id="story-title" class="text-2xl font-bold text-blue-600 mb-4">{{ story.title }}</h1>
+
+    <!-- Japanese Text -->
+    <div id="jp-text" class="text-lg leading-relaxed mb-2 p-4 bg-gray-100 rounded"></div>
+
+    <!-- Buttons -->
+    <div class="mb-6 space-x-2">
+        <button id="play-normal" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">🔊 Play Normal</button>
+        <button id="play-slow" class="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600">🐢 Read Slowly</button>
+        <button id="stop" class="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600">⏹ Stop</button>
+    </div>
+
+    <!-- English Translation -->
+    <h2 class="text-xl font-semibold mb-2">English Translation</h2>
+    <p id="en-text" class="text-gray-700 mb-6">{{ story.english }}</p>
+
+    <!-- Vocabulary -->
+    <h2 class="text-xl font-semibold mb-2">Vocabulary</h2>
+    <ul class="list-disc pl-5">
+        {% for v in story.vocab %}
+            <li>{{ v.word }} — {{ v.meaning }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/" class="mt-6 inline-block text-blue-600">← Back</a>
+</div>
+
+<script>
+const storyText = `{{ story.text }}`;
+const storyTitle = `{{ story.title }}`;
+const jpTextElem = document.getElementById("jp-text");
+const titleElem = document.getElementById("story-title");
+
+// Split text into sentences (Japanese sentence endings: 。, ！, ？)
+const sentences = storyText.split(/([。！？]+)/).filter(s => s.trim() !== "");
+// Group punctuation with the previous sentence
+const groupedSentences = [];
+for (let i = 0; i < sentences.length; i += 2) {
+    if (sentences[i + 1]) {
+        groupedSentences.push(sentences[i] + sentences[i + 1]);
+    } else {
+        groupedSentences.push(sentences[i]);
+    }
+}
+
+// Use Jinja2 concatenation (~) for static audio path
+const audio = new Audio("{{ url_for('static', filename='voices/' ~ level ~ '/story' ~ id ~ '.wav') }}");
+
+let currentSegmentIndex = 0;
+let timeoutId = null;
+let isPlaying = false;
+
+// We'll treat the title as the first segment, then the sentences
+const allSegments = [storyTitle, ...groupedSentences];
+
+// Initialize text display with sentence spans (title is already in the HTML)
+function initializeText() {
+    jpTextElem.innerHTML = "";
+    groupedSentences.forEach((sentence, index) => {
+        const sentenceDiv = document.createElement("div");
+        sentenceDiv.textContent = sentence;
+        sentenceDiv.className = "sentence";
+        sentenceDiv.id = `sentence-${index}`;
+        jpTextElem.appendChild(sentenceDiv);
+    });
+}
+
+// Calculate realistic reading time for a Japanese text segment
+function calculateSegmentTime(text, playbackRate = 1.0) {
+    // Base reading speed: approximately 4-5 characters per second for normal reading
+    const baseTimePerChar = 160; // milliseconds per character at normal speed
+    
+    // Calculate base time for this segment
+    let segmentTime = text.length * baseTimePerChar;
+    
+    // Adjust for playback rate
+    segmentTime = segmentTime / playbackRate;
+    
+    // Add pause between segments (longer pause after title)
+    const isTitle = (text === storyTitle);
+    const pauseTime = isTitle ? 
+        (playbackRate === 1.0 ? 1500 : 2000) : // Longer pause after title
+        (playbackRate === 1.0 ? 800 : 1200);   // Normal pause between sentences
+    
+    segmentTime += pauseTime;
+    
+    return segmentTime;
+}
+
+// Start highlighting with title first, then sentences
+function startHighlighting(playbackRate = 1.0) {
+    if (isPlaying) return;
+    
+    isPlaying = true;
+    currentSegmentIndex = 0;
+    const sentenceElements = jpTextElem.querySelectorAll(".sentence");
+    const segmentCount = allSegments.length;
+    
+    // Clear any existing highlights
+    titleElem.classList.remove("title-highlight");
+    sentenceElements.forEach(el => el.classList.remove("highlight"));
+    
+    console.log(`Starting playback with ${segmentCount} segments at ${playbackRate}x speed`);
+    
+    function highlightNextSegment() {
+        if (!isPlaying) return;
+        
+        // Remove highlight from previous segment
+        if (currentSegmentIndex > 0) {
+            const prevIndex = currentSegmentIndex - 1;
+            if (prevIndex === 0) {
+                // Previous was title
+                titleElem.classList.remove("title-highlight");
+            } else {
+                // Previous was a sentence
+                const sentenceIndex = prevIndex - 1;
+                if (sentenceElements[sentenceIndex]) {
+                    sentenceElements[sentenceIndex].classList.remove("highlight");
+                }
+            }
+        }
+        
+        // Check if we've reached the end
+        if (currentSegmentIndex >= segmentCount) {
+            isPlaying = false;
+            console.log("Playback finished");
+            return;
+        }
+        
+        // Highlight current segment
+        const currentSegment = allSegments[currentSegmentIndex];
+        let segmentTime;
+        
+        if (currentSegmentIndex === 0) {
+            // This is the title
+            titleElem.classList.add("title-highlight");
+            segmentTime = calculateSegmentTime(currentSegment, playbackRate);
+            
+            // Scroll to title
+            titleElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+            // This is a sentence
+            const sentenceIndex = currentSegmentIndex - 1;
+            if (sentenceElements[sentenceIndex]) {
+                sentenceElements[sentenceIndex].classList.add("highlight");
+                segmentTime = calculateSegmentTime(currentSegment, playbackRate);
+                
+                // Scroll to keep the current sentence visible
+                sentenceElements[sentenceIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+        }
+        
+        console.log(`Segment ${currentSegmentIndex + 1}: ${currentSegment.length} chars - Displaying for ${segmentTime}ms`);
+        console.log(`Text: "${currentSegment}"`);
+        
+        // Move to next segment after calculated time
+        currentSegmentIndex++;
+        timeoutId = setTimeout(highlightNextSegment, segmentTime);
+    }
+    
+    // Start the highlighting
+    highlightNextSegment();
+}
+
+// Stop everything and reset
+function stopEverything() {
+    isPlaying = false;
+    clearTimeout(timeoutId);
+    audio.pause();
+    audio.currentTime = 0;
+    
+    // Remove all highlights
+    titleElem.classList.remove("title-highlight");
+    const sentenceElements = jpTextElem.querySelectorAll(".sentence");
+    sentenceElements.forEach(el => el.classList.remove("highlight"));
+}
+
+// Event listeners
+document.getElementById("play-normal").addEventListener("click", () => {
+    stopEverything();
+    
+    audio.playbackRate = 1.0;
+    audio.currentTime = 0;
+    
+    audio.play().then(() => {
+        startHighlighting(1.0);
+    }).catch(error => {
+        console.error("Audio play failed:", error);
+        // Fallback: start highlighting even if audio fails
+        startHighlighting(1.0);
+    });
+});
+
+document.getElementById("play-slow").addEventListener("click", () => {
+    stopEverything();
+    
+    audio.playbackRate = 0.6;
+    audio.currentTime = 0;
+    
+    audio.play().then(() => {
+        startHighlighting(0.6);
+    }).catch(error => {
+        console.error("Audio play failed:", error);
+        // Fallback: start highlighting even if audio fails
+        startHighlighting(0.6);
+    });
+});
+
+document.getElementById("stop").addEventListener("click", stopEverything);
+
+// Handle audio end
+audio.addEventListener("ended", () => {
+    isPlaying = false;
+    clearTimeout(timeoutId);
+    
+    // Remove highlight from last segment
+    const sentenceElements = jpTextElem.querySelectorAll(".sentence");
+    if (sentenceElements.length > 0) {
+        const lastSentenceIndex = currentSegmentIndex - 2; // -2 because we increment after highlighting
+        if (lastSentenceIndex >= 0 && sentenceElements[lastSentenceIndex]) {
+            sentenceElements[lastSentenceIndex].classList.remove("highlight");
+        }
+    }
+    titleElem.classList.remove("title-highlight");
+});
+
+// Wait for audio to load
+audio.addEventListener('loadeddata', () => {
+    console.log("Audio loaded, duration:", audio.duration);
+    initializeText();
+});
+
+audio.addEventListener('error', (e) => {
+    console.error("Audio error:", e);
+});
+
+// Initialize text on page load
+initializeText();
+</script>
+</body>
+</html>

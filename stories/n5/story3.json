@@ -1,0 +1,11 @@
+{
+  "title": "がっこうの ともだち",
+  "text": "がっこうに ともだちが 三人 います。たなかさんと さとうさんと やまださんです。たなかさんは せが たかいです。さとうさんは おもしろい ひとです。",
+  "english": "I have three friends at school. Mr. Tanaka, Mr. Sato, and Mr. Yamada. Mr. Tanaka is tall. Mr. Sato is an interesting person.",
+  "vocab": [
+    {"word": "がっこう", "meaning": "school"},
+    {"word": "ともだち", "meaning": "friend"},
+    {"word": "せ", "meaning": "height"},
+    {"word": "たかい", "meaning": "tall"}
+  ]
+}

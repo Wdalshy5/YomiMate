@@ -1,0 +1,11 @@
+{
+  "title": "きょうの てんき",
+  "text": "きょうは はれです。そらは あおくて きれいです。でも、あしたは あめかも しれません。てんきよほうを みました。",
+  "english": "Today is sunny. The sky is blue and beautiful. But tomorrow it might rain. I watched the weather forecast.",
+  "vocab": [
+    {"word": "てんき", "meaning": "weather"},
+    {"word": "はれ", "meaning": "sunny"},
+    {"word": "そら", "meaning": "sky"},
+    {"word": "あめ", "meaning": "rain"}
+  ]
+}

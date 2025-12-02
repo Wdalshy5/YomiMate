@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JLPT Stories</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/static/script.js"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-6">
+    <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl font-bold mb-4 text-blue-600">Japanese Reading Stories (JLPT N5–N4)</h1>
+
+        <div class="flex gap-4 mb-6">
+            <button class="level-btn px-4 py-2 bg-blue-500 text-white rounded" data-level="n5">N5 Stories</button>
+            <button class="level-btn px-4 py-2 bg-green-500 text-white rounded" data-level="n4">N4 Stories</button>
+        </div>
+
+        <ul id="story-list" class="space-y-3"></ul>
+    </div>
+</body>
+</html>
