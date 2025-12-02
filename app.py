@@ -1,8 +1,23 @@
 import os
 import json
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template,request, jsonify
+from supabase_auth import sign_up_user, sign_in_user, sign_out_user
 
 app = Flask(__name__)
+
+@app.route("/signup", methods=["POST"])
+def signup():
+    data = request.json
+    email = data.get("email")
+    password = data.get("password")
+    
+    user, error = sign_up_user(email, password)
+    
+    if error:
+        return jsonify({"error": error.message}), 400
+    return jsonify({"user": user}), 200
+
+
 
 def load_stories(level):
     folder = os.path.join("stories", level)
