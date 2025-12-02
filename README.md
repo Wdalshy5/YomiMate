@@ -1,6 +1,6 @@
 
 
-#YomiMate - Japanese Reading Practice 📖🇯🇵
+YomiMate - Japanese Reading Practice 📖🇯🇵
 
 YomiMate is a web application designed to help learners practice reading Japanese stories with varying difficulty levels (N4-N5). The app features more than 50 stories, each with a dynamic voice reading feature (normal and slow speeds), and a line-highlighting feature to help users follow along with the reading.
 
