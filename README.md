@@ -6,28 +6,28 @@ YomiMate is a web application designed to help learners practice reading Japanes
 
 # Features 🌟
 
-50+ Stories 📚: A diverse collection of Japanese stories designed for N4-N5 learners.
+**50+ Stories** 📚: A diverse collection of Japanese stories designed for N4-N5 learners.
 
-Voice Reading 🎤: Stories are read aloud with the option to switch between normal and slow speeds to match the learner's pace.
+**Voice Reading** 🎤: Stories are read aloud with the option to switch between normal and slow speeds to match the learner's pace.
 
-Line Highlighting ✨: As the story is read, the current line is highlighted to help users stay on track.
+**Line Highlighting**✨: As the story is read, the current line is highlighted to help users stay on track.
 
-Multiple Difficulty Levels 🔢: Stories are categorized by difficulty (N4-N5), providing an ideal learning experience for intermediate Japanese learners.
+**Multiple Difficulty Levels** 🔢: Stories are categorized by difficulty (N4-N5), providing an ideal learning experience for intermediate Japanese learners.
 
-Interactive Interface 🖱️: Easy-to-use interface with simple navigation and controls.
+**Interactive Interface** 🖱️: Easy-to-use interface with simple navigation and controls. 
 
-Responsive Design 📱💻: Built with responsiveness in mind, ensuring a smooth experience on both mobile and desktop devices.
+**Responsive Design** 📱💻: Built with responsiveness in mind, ensuring a smooth experience on both mobile and desktop devices.
 
 
 # Tech Stack 🛠️
 
-Flask: A lightweight Python framework used to build the backend API and handle routing.
+**Flask**: A lightweight Python framework used to build the backend API and handle routing.
 
-Tailwind CSS (CDN): Used for styling the app's frontend, providing a clean and responsive design.
+**Tailwind CSS** (CDN): Used for styling the app's frontend, providing a clean and responsive design.
 
-jQuery: Used for handling DOM manipulation and AJAX requests.
+**jQuery** : Used for handling DOM manipulation and AJAX requests.
 
-JSON: Data storage format for managing stories and configurations.
+**JSON**: Data storage format for managing stories and configurations.
 
 Supabase: Provides the backend database for storing stories, user preferences, and settings.
 
