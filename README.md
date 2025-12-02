@@ -1,10 +1,10 @@
 
 
-YomiMate - Japanese Reading Practice 📖🇯🇵
+# YomiMate - Japanese Reading Practice 📖🇯🇵
 
 YomiMate is a web application designed to help learners practice reading Japanese stories with varying difficulty levels (N4-N5). The app features more than 50 stories, each with a dynamic voice reading feature (normal and slow speeds), and a line-highlighting feature to help users follow along with the reading.
 
-#Features 🌟
+# Features 🌟
 
 50+ Stories 📚: A diverse collection of Japanese stories designed for N4-N5 learners.
 
@@ -19,7 +19,7 @@ Interactive Interface 🖱️: Easy-to-use interface with simple navigation and 
 Responsive Design 📱💻: Built with responsiveness in mind, ensuring a smooth experience on both mobile and desktop devices.
 
 
-#Tech Stack 🛠️
+# Tech Stack 🛠️
 
 Flask: A lightweight Python framework used to build the backend API and handle routing.
 
@@ -32,13 +32,13 @@ JSON: Data storage format for managing stories and configurations.
 Supabase: Provides the backend database for storing stories, user preferences, and settings.
 
 
-#Installation 🏗️
+# Installation 🏗️
 
 To get started with YomiMate on your local machine, follow these steps:
 
 1. Clone the Repository
 
-git clone https://github.com/wdalshy5/YomiMate.git
+> git clone https://github.com/wdalshy5/YomiMate.git
 cd YomiMate
 
 2. Set up a Virtual Environment
@@ -49,7 +49,7 @@ venv\Scripts\activate  # For Windows
 
 3. Install Dependencies
 
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 4. Set Up Supabase
 
@@ -62,7 +62,7 @@ Set up the SUPABASE_URL and SUPABASE_KEY in your app's configuration (typically 
 
 5. Run the Application
 
-flask run
+> flask run
 
 Visit http://localhost:5000 in your browser to start using the app!
 
@@ -75,7 +75,7 @@ Voice Controls 🎧: Use the controls to start or stop the voice reading and adj
 Highlighting 🔴: As the voice reads, the current line of text will be highlighted for easy tracking.
 
 
-#Contributing 🤝
+# Contributing 🤝
 
 We welcome contributions! If you'd like to improve the app or add new features, feel free to fork the repository and submit a pull request.
 
@@ -97,10 +97,10 @@ How to Contribute:
 
 
 
-#License 📜
+# License 📜
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-#Contact 📬
+# Contact 📬
 
 If you have any questions or suggestions, feel free to open an issue or reach out to wdalsh5913@gmail.com
