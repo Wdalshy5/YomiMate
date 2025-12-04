@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 350px;
+            margin: 60px auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background: #2563EB;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        .message {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 6px;
+            display: none;
+            font-size: 14px;
+        }
+
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .switch-link {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .switch-link a {
+            color: #2563EB;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="signup-box">
+    <h2>Create Account</h2>
+    <label>Username</label>
+    <input type="text" id="signup_username">
+
+    <label>Email</label>
+    <input type="email" id="signup_email">
+
+    <label>Password</label>
+    <input type="password" id="signup_password">
+
+    <button id="signup_btn">Sign Up</button>
+
+    <div class="message" id="signup_msg"></div>
+
+    <div class="switch-link">
+        Already have an account? <a id="switch_to_login">Login</a>
+    </div>
+</div>
+
+
+<div class="container" id="login-box" style="display:none;">
+    <h2>Login</h2>
+    <label>Email</label>
+    <input type="email" id="login_email">
+
+    <label>Password</label>
+    <input type="password" id="login_password">
+
+    <button id="login_btn">Login</button>
+
+    <div class="message" id="login_msg"></div>
+
+    <div class="switch-link">
+        Don’t have an account? <a id="switch_to_signup">Sign Up</a>
+    </div>
+</div>
+
+
+<!-- AJAX Logic -->
+<script>
+$(document).ready(function () {
+
+    // Switch between forms
+    $("#switch_to_login").click(function () {
+        $("#signup-box").hide();
+        $("#login-box").show();
+    });
+
+    $("#switch_to_signup").click(function () {
+        $("#login-box").hide();
+        $("#signup-box").show();
+    });
+
+    // SIGN UP AJAX
+    $("#signup_btn").click(function () {
+        let username = $("#signup_username").val();
+        let email = $("#signup_email").val();
+        let password = $("#signup_password").val();
+
+        $.ajax({
+            url: "http://127.0.0.1:5000/signup",
+            method: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({
+                username: username,
+                email: email,
+                password: password
+            }),
+            success: function (res) {
+                $("#signup_msg").show().removeClass().addClass("message " + (res.success ? "success" : "error"));
+                $("#signup_msg").text(res.message);
+            }
+        });
+    });
+
+    // LOGIN AJAX
+    $("#login_btn").click(function () {
+        let email = $("#login_email").val();
+        let password = $("#login_password").val();
+
+        $.ajax({
+            url: "/login",
+            method: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({
+                email: email,
+                password: password
+            }),
+            success: function (res) {
+                $("#login_msg").show().removeClass().addClass("message " + (res.success ? "success" : "error"));
+                $("#login_msg").text(res.message);
+
+                if (res.success) {
+                    setTimeout(() => {
+                        window.location.href = "/dashboard";  
+                    }, 600);
+                }
+            }
+        });
+    });
+
+});
+</script>
+
+</body>
+</html>

@@ -1,22 +1,32 @@
 import os
 import json
 from flask import Flask, render_template,request, jsonify
-from supabase_auth import sign_up_user, sign_in_user, sign_out_user
+from model import create_user, get_user_by_username, check_password 
+from database import init_db
 
 app = Flask(__name__)
 
+from flask_bcrypt import Bcrypt
+
+app = Flask(__name__)
+bcrypt = Bcrypt(app)
+
+# Run once to create tables
+init_db()
+
 @app.route("/signup", methods=["POST"])
-def signup():
+def register():
     data = request.json
+
+    username = data.get("username")
     email = data.get("email")
     password = data.get("password")
-    
-    user, error = sign_up_user(email, password)
-    
-    if error:
-        return jsonify({"error": error.message}), 400
-    return jsonify({"user": user}), 200
 
+    try:
+        create_user(username, email, password)
+        return jsonify({"message": "User registered successfully"}), 201
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 
 def load_stories(level):
@@ -61,6 +71,11 @@ def story(level, id):
 
     # Pass the story object to template
     return render_template("story.html", story=stories[id], level=level, id=id)
+
+
+@app.route("/auth")
+def home():
+    return render_template("auth.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
