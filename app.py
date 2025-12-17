@@ -1,15 +1,34 @@
 import os
 import json
-from flask import Flask, render_template,request, jsonify
+from flask import Flask, render_template,request, jsonify,redirect
+from supabase_auth import User
 from model import create_user, get_user_by_username, check_password 
-from database import init_db
-
+from database import get_db, init_db
+from flask_login import LoginManager, login_user, logout_user, login_required, UserMixin
 app = Flask(__name__)
 
 from flask_bcrypt import Bcrypt
+  # redirect to /login if not logged in
 
 app = Flask(__name__)
 bcrypt = Bcrypt(app)
+app.secret_key = "something-very-secret-and-random"
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = "/auth" 
+
+class User(UserMixin):
+    def __init__(self, row):
+        self.id = row["id"]
+        self.username = row["username"]
+
+@login_manager.user_loader
+def load_user(user_id):
+    row = get_user_by_username(user_id)
+    if row:
+        return User(row)
+    return None
+  # return User object from DB
 
 # Run once to create tables
 init_db()
@@ -26,9 +45,21 @@ def register():
         create_user(username, email, password)
         return jsonify({"message": "User registered successfully"}), 201
     except Exception as e:
-        return jsonify({"error": str(e)}), 400
+        return jsonify({"message": str(e)}), 400
 
+@app.route("/login", methods=["POST"])
+def login():
+    data = request.json
 
+    username = data.get("username")
+    password = data.get("password")
+
+    user = get_user_by_username(username)
+    if user and check_password(user, password):
+        login_user(UserMixin(user["id"]))
+        return redirect("/dashboard")
+    else:
+        return jsonify({"error": "Invalid credentials"}), 401
 def load_stories(level):
     folder = os.path.join("stories", level)
     stories = []
@@ -73,9 +104,16 @@ def story(level, id):
     return render_template("story.html", story=stories[id], level=level, id=id)
 
 
+@app.route("/dashboard")
+@login_required
+def dashboard():
+    return "Welcome to your dashboard!"
+
 @app.route("/auth")
 def home():
     return render_template("auth.html")
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
