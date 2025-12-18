@@ -1,10 +1,6 @@
 import os
 import json
 from flask import Flask, render_template,request, jsonify,redirect
-<<<<<<< HEAD
-=======
-
->>>>>>> 42d7db2d253f3afcc1b9528768197db7c7d426f2
 from model import create_user, get_user_by_username, check_password 
 from database import get_db, init_db
 from flask_login import LoginManager, login_user, logout_user, login_required, UserMixin
