@@ -6,29 +6,8 @@
     <title>{{ story.title }} - YomiMate</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='story.css') }}">
     <style>
-        /* Refined Native Highlighting */
-        .highlight { 
-            background-color: #fef08a; /* Softer yellow */
-            transition: all 0.2s ease; 
-            border-radius: 4px;
-            padding: 2px 4px;
-        }
-        .sentence {
-            display: block;
-            margin-bottom: 12px;
-            line-height: 1.8;
-            transition: color 0.3s ease;
-        }
-        .title-highlight {
-            background-color: #fef08a;
-            transition: all 0.2s ease;
-            border-radius: 6px;
-            padding: 2px 8px;
-        }
-        /* Native-style scroll smoothing */
-        html { scroll-behavior: smooth; }
-        body { -webkit-tap-highlight-color: transparent; }
     </style>
 </head>
 <body class="bg-[#f8f9fc] pb-32 font-sans text-gray-800">
@@ -48,8 +27,7 @@
                 {{ story.title }}
             </h1>
 
-            <div id="jp-text" class="text-xl leading-relaxed text-gray-700 selection:bg-orange-100">
-                </div>
+            <div id="jp-text" class="text-xl leading-relaxed text-gray-700 selection:bg-orange-100">{{story.text}}</div>
         </div>
 
         <div class="bg-white rounded-3xl shadow-sm border border-gray-100 p-6 mb-6">
@@ -92,133 +70,15 @@
             </button>
         </div>
     </div>
-
 <script>
-    // --- KEEPING ALL YOUR ORIGINAL LOGIC UNTOUCHED ---
-    const storyText = `{{ story.text }}`;
-    const storyTitle = `{{ story.title }}`;
-    const jpTextElem = document.getElementById("jp-text");
-    const titleElem = document.getElementById("story-title");
-
-    const sentences = storyText.split(/([。！？]+)/).filter(s => s.trim() !== "");
-    const groupedSentences = [];
-    for (let i = 0; i < sentences.length; i += 2) {
-        if (sentences[i + 1]) {
-            groupedSentences.push(sentences[i] + sentences[i + 1]);
-        } else {
-            groupedSentences.push(sentences[i]);
-        }
-    }
-
-    const audio = new Audio('{{ url_for("static", filename="voices/" ~ level ~ "/story" ~ story.id ~ ".wav") }}');
-
-    let currentSegmentIndex = 0;
-    let timeoutId = null;
-    let isPlaying = false;
-    const allSegments = [storyTitle, ...groupedSentences];
-
-    function initializeText() {
-        jpTextElem.innerHTML = "";
-        groupedSentences.forEach((sentence, index) => {
-            const sentenceDiv = document.createElement("div");
-            sentenceDiv.textContent = sentence;
-            sentenceDiv.className = "sentence";
-            sentenceDiv.id = `sentence-${index}`;
-            jpTextElem.appendChild(sentenceDiv);
-        });
-    }
-
-    function calculateSegmentTime(text, playbackRate = 1.0) {
-        const baseTimePerChar = 160; 
-        let segmentTime = text.length * baseTimePerChar;
-        segmentTime = segmentTime / playbackRate;
-        const isTitle = (text === storyTitle);
-        const pauseTime = isTitle ? 
-            (playbackRate === 1.0 ? 1500 : 2000) : 
-            (playbackRate === 1.0 ? 800 : 1200);   
-        segmentTime += pauseTime;
-        return segmentTime;
-    }
-
-    function startHighlighting(playbackRate = 1.0) {
-        if (isPlaying) return;
-        isPlaying = true;
-        currentSegmentIndex = 0;
-        const sentenceElements = jpTextElem.querySelectorAll(".sentence");
-        const segmentCount = allSegments.length;
-        titleElem.classList.remove("title-highlight");
-        sentenceElements.forEach(el => el.classList.remove("highlight"));
-        
-        function highlightNextSegment() {
-            if (!isPlaying) return;
-            if (currentSegmentIndex > 0) {
-                const prevIndex = currentSegmentIndex - 1;
-                if (prevIndex === 0) { titleElem.classList.remove("title-highlight"); } 
-                else {
-                    const sentenceIndex = prevIndex - 1;
-                    if (sentenceElements[sentenceIndex]) { sentenceElements[sentenceIndex].classList.remove("highlight"); }
-                }
-            }
-            if (currentSegmentIndex >= segmentCount) {
-                isPlaying = false;
-                return;
-            }
-            const currentSegment = allSegments[currentSegmentIndex];
-            let segmentTime;
-            if (currentSegmentIndex === 0) {
-                titleElem.classList.add("title-highlight");
-                segmentTime = calculateSegmentTime(currentSegment, playbackRate);
-                titleElem.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            } else {
-                const sentenceIndex = currentSegmentIndex - 1;
-                if (sentenceElements[sentenceIndex]) {
-                    sentenceElements[sentenceIndex].classList.add("highlight");
-                    segmentTime = calculateSegmentTime(currentSegment, playbackRate);
-                    sentenceElements[sentenceIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            }
-            currentSegmentIndex++;
-            timeoutId = setTimeout(highlightNextSegment, segmentTime);
-        }
-        highlightNextSegment();
-    }
-
-    function stopEverything() {
-        isPlaying = false;
-        clearTimeout(timeoutId);
-        audio.pause();
-        audio.currentTime = 0;
-        titleElem.classList.remove("title-highlight");
-        const sentenceElements = jpTextElem.querySelectorAll(".sentence");
-        sentenceElements.forEach(el => el.classList.remove("highlight"));
-    }
-
-    // Event listeners
-    document.getElementById("play-normal").addEventListener("click", () => {
-        stopEverything();
-        audio.playbackRate = 1.0;
-        audio.play().then(() => startHighlighting(1.0)).catch(e => startHighlighting(1.0));
-    });
-
-    document.getElementById("play-slow").addEventListener("click", () => {
-        stopEverything();
-        audio.playbackRate = 0.6;
-        audio.play().then(() => startHighlighting(0.6)).catch(e => startHighlighting(0.6));
-    });
-
-    document.getElementById("stop").addEventListener("click", stopEverything);
-
-    audio.addEventListener("ended", () => {
-        isPlaying = false;
-        clearTimeout(timeoutId);
-        titleElem.classList.remove("title-highlight");
-        const sentenceElements = jpTextElem.querySelectorAll(".sentence");
-        sentenceElements.forEach(el => el.classList.remove("highlight"));
-    });
-
-    audio.addEventListener('loadeddata', () => initializeText());
-    initializeText();
-    lucide.createIcons();
+    window.storyData = {
+        title: `{{ story.title }}`,
+        text: `{{ story.text }}`,
+        romaji: `{{ story.romaji }}`,
+        audioUrl: `{{ url_for('static', filename='voices/' ~ level ~ '/story' ~ story.id ~ '.wav') }}`
+    };
 </script>
+<script src="{{ url_for('static', filename='story.js') }}"></script>
+    
 </body>
 </html>

@@ -1,0 +1,76 @@
+
+        /* Refined Native Highlighting */
+        .highlight { 
+            background-color: #fef08a; /* Softer yellow */
+            transition: all 0.2s ease; 
+            border-radius: 4px;
+            padding: 2px 4px;
+        }
+        .sentence {
+            display: block;
+            margin-bottom: 12px;
+            line-height: 1.8;
+            transition: color 0.3s ease;
+        }
+        .title-highlight {
+            background-color: #fef08a;
+            transition: all 0.2s ease;
+            border-radius: 6px;
+            padding: 2px 8px;
+        }
+        /* Native-style scroll smoothing */
+        html { scroll-behavior: smooth; }
+        body { -webkit-tap-highlight-color: transparent; }
+
+        /* Refined Native Highlighting */
+.highlight { 
+    background-color: #fef08a; 
+    transition: all 0.2s ease; 
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.sentence-container {
+    margin-bottom: 20px;
+}
+
+.sentence {
+    display: block;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.romaji {
+    display: block;
+    font-size: 0.85rem;
+    color: #9ca3af; /* gray-400 */
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.title-highlight {
+    background-color: #fef08a;
+    transition: all 0.2s ease;
+    border-radius: 6px;
+    padding: 2px 8px;
+}
+
+/* Native-style scroll smoothing */
+html { scroll-behavior: smooth; }
+body { -webkit-tap-highlight-color: transparent; }
+
+/* Add this to your existing CSS */
+.highlight-block {
+    background-color: #fef9c3; /* A soft yellow background */
+    border-left: 4px solid #f7931e; /* Orange indicator bar on the left */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Subtle lift effect */
+    transform: scale(1.01); /* Slight zoom for focus */
+}
+
+/* Ensure the transition applies to the block for smooth effects */
+.sentence-container {
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Smooths the background/transform change */
+    border-left: 4px solid transparent; /* Prevents layout jump when border appears */
+    padding-left: 12px; /* Spacing for the border */
+}
