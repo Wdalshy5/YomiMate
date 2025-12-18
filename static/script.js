@@ -1,7 +1,9 @@
 $(document).ready(function () {
 
-    // Function to load stories of a specific level
     function loadStories(level) {
+        // Optional: show a loading state
+        $("#story-list").html('<div class="col-span-full text-center py-10 text-gray-400">Loading stories...</div>');
+
         fetch(`/api/stories/${level}`)
             .then(response => {
                 if (!response.ok) throw new Error("Network response was not ok");
@@ -11,47 +13,40 @@ $(document).ready(function () {
                 $("#story-list").empty();
 
                 if (stories.length === 0) {
-                    $("#story-list").append('<li class="text-gray-500">No stories available.</li>');
+                    $("#story-list").append('<li class="col-span-full text-center py-10 text-gray-500">No stories available.</li>');
                     return;
                 }
 
                 stories.forEach((story, index) => {
-                   const storyItem = $(`
-    <li class="story-card bg-white rounded-lg shadow hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col h-full">
-        
-        <div class="h-40 w-full bg-gray-200">
-            <img src="/static/images/${level.toUpperCase()}.png" 
-     alt="${story.title}" 
-     class="w-full h-full object-cover border-t border-gray-100">
-        </div>
-
-        <div class="p-4 flex flex-col flex-grow">
-            <a href="/story/${level}/${index}" class="story-title text-blue-700 font-bold text-lg mb-2 hover:underline leading-tight">
-                ${story.title}
-            </a>
-
-            <div class="story-level text-sm text-gray-500 mt-auto pt-3 border-t border-gray-100 flex justify-between items-center">
-                <span>Level: <span class="font-medium text-gray-700">${level.toUpperCase()}</span></span>
-            </div>
-        </div>
-    </li>
-`);
-
-$("#story-list").append(storyItem);
+                    const storyItem = $(`
+                        <li class="story-card bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-6 hover:border-[#f7931e] transition-colors">
+                            <span class="text-5xl font-black text-[#f7931e] opacity-80 min-w-[70px]">${level.toUpperCase()}</span>
+                            
+                            <div class="flex flex-col overflow-hidden">
+                                <a href="/story/${level}/${index}" class="text-xl font-bold text-[#1d4e89] truncate">
+                                    ${story.title}
+                                </a>
+                                <p class="text-gray-400 text-sm font-medium">Level: ${level.toUpperCase()}</p>
+                            </div>
+                        </li>
+                    `);
+                    $("#story-list").append(storyItem);
                 });
             })
             .catch(error => {
                 console.error("Error loading stories:", error);
-                $("#story-list").html('<li class="text-red-500">Failed to load stories. Please try again.</li>');
+                $("#story-list").html('<li class="col-span-full text-center py-10 text-red-500">Failed to load stories.</li>');
             });
     }
 
-    // Button click handlers
+    // Tab Switching Logic
     $(".level-btn").click(function () {
+        $(".level-btn").removeClass("active-tab text-white").addClass("text-gray-500");
+        $(this).addClass("active-tab").removeClass("text-gray-500");
+        
         const level = $(this).data("level");
         loadStories(level);
     });
 
-    // Optionally, load N5 by default on page load
     loadStories("n5");
 });
