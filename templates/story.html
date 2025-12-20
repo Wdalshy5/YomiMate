@@ -82,7 +82,7 @@
             text: `{{ story.text }}`,
             title_romaji: `{{ story.title_romaji }}`,
             text_romaji:`{{ story.text_romaji }}`,
-            audioUrl: `{{ url_for('static', filename='voices/' ~ level ~ '/story' ~ story.id ~ '.wav') }}`
+            audioUrl: `{{ url_for('static', filename='voices/' ~ level ~ '/story' ~ story.id ~ '.mp3') }}`
         };
     </script>
     <script src="{{ url_for('static', filename='story.js') }}"></script>
