@@ -1,24 +1,55 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     const data = window.storyData;
     const jpTextElem = document.getElementById("jp-text");
     const titleElem = document.getElementById("story-title");
+    const romajiTitleElem = document.getElementById("story-title-romaji");
+
+    // Set title with romaji
+    if (titleElem && data.title) {
+        titleElem.textContent = data.title;
+    }
+    if (romajiTitleElem && data.title_romaji) {
+        romajiTitleElem.textContent = data.title_romaji;
+    }
 
     // Safety check: ensure text exists before processing
     if (!data.text) return;
 
-    // Logic to split and group sentences
-    function getGroupedSentences(text, regex) {
-        if (!text) return []; // Handle missing Romaji gracefully
-        const parts = text.split(regex).filter(s => s.trim() !== "");
+    // Logic to split and group sentences for Japanese text
+    function getJapaneseSentences(text) {
+        if (!text) return [];
+        // Split by Japanese sentence endings
+        const sentences = text.split(/([。！？]+)/).filter(s => s.trim() !== "");
         const grouped = [];
-        for (let i = 0; i < parts.length; i += 2) {
-            grouped.push(parts[i] + (parts[i + 1] || ""));
+        for (let i = 0; i < sentences.length; i += 2) {
+            if (sentences[i + 1]) {
+                grouped.push(sentences[i] + sentences[i + 1]);
+            } else {
+                grouped.push(sentences[i]);
+            }
         }
         return grouped;
     }
 
-    const jpSentences = getGroupedSentences(data.text, /([。！？]+)/);
-    const romajiSentences = getGroupedSentences(data.romaji || "", /([.!?]+)/);
+    // Logic to split and group sentences for Romaji text
+    function getRomajiSentences(text) {
+        if (!text) return [];
+        // Split by Roman punctuation
+        const sentences = text.split(/([.!?]+)/).filter(s => s.trim() !== "");
+        const grouped = [];
+        for (let i = 0; i < sentences.length; i += 2) {
+            if (sentences[i + 1]) {
+                grouped.push(sentences[i] + sentences[i + 1]);
+            } else {
+                grouped.push(sentences[i]);
+            }
+        }
+        return grouped;
+    }
+
+    const jpSentences = getJapaneseSentences(data.text);
+    const romajiSentences = getRomajiSentences(data.text_romaji || data.romaji || "");
     
     // Combine title and sentences into one timeline
     const allSegments = [data.title, ...jpSentences];
@@ -31,10 +62,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // Build the UI
     function initializeText() {
         jpTextElem.innerHTML = "";
+        
+        // If no romaji sentences or mismatch, create empty romaji lines
+        const romajiArray = romajiSentences.length > 0 ? 
+            romajiSentences : 
+            Array(jpSentences.length).fill("");
+        
         jpSentences.forEach((sentence, index) => {
             const container = document.createElement("div");
             // Add base classes
-            container.className = "sentence-container p-2 rounded-xl cursor-pointer hover:bg-gray-50";
+            container.className = "sentence-container p-2 rounded-xl cursor-pointer hover:bg-gray-50 transition-colors duration-200";
             container.id = `sentence-block-${index}`;
             
             // Click to play functionality (Optional feature enhancement)
@@ -45,12 +82,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const jpLine = document.createElement("div");
             jpLine.textContent = sentence;
-            jpLine.className = "text-xl font-medium text-gray-800 leading-loose";
+            jpLine.className = "text-xl font-medium text-gray-800 leading-loose mb-1";
 
             const romajiLine = document.createElement("div");
-            // Safety: Handle cases where romaji count doesn't match Japanese count
-            romajiLine.textContent = romajiSentences[index] || "";
-            romajiLine.className = "text-sm text-gray-400 mt-1 italic";
+            // Use romaji if available, otherwise show placeholder
+            romajiLine.textContent = romajiArray[index] || "";
+            romajiLine.className = "text-sm text-gray-500 mt-1 italic font-light";
+            
+            // Hide romaji line if empty
+            if (!romajiArray[index]) {
+                romajiLine.style.display = 'none';
+            }
 
             container.appendChild(jpLine);
             container.appendChild(romajiLine);
@@ -93,6 +135,10 @@ document.addEventListener("DOMContentLoaded", () => {
             if (currentSegmentIndex === 0) {
                 // Title
                 titleElem.classList.add("title-highlight");
+                // Also highlight romaji title if it exists
+                if (romajiTitleElem) {
+                    romajiTitleElem.classList.add("title-highlight");
+                }
             } else {
                 // Sentences (Index offset by 1 because title is 0)
                 const blockIndex = currentSegmentIndex - 1;
@@ -121,6 +167,9 @@ document.addEventListener("DOMContentLoaded", () => {
         
         // Clear all visual highlights immediately
         titleElem.classList.remove("title-highlight");
+        if (romajiTitleElem) {
+            romajiTitleElem.classList.remove("title-highlight");
+        }
         document.querySelectorAll(".sentence-container").forEach(el => {
             el.classList.remove("highlight-block");
         });
