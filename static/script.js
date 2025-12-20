@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
     function loadStories(level) {
@@ -17,16 +18,36 @@ $(document).ready(function () {
                     return;
                 }
 
-                stories.forEach((story, index) => {
+                // Sort stories in descending order by ID (highest ID first)
+                const sortedStories = stories.sort((a, b) => {
+                    // Ensure we have valid IDs, fallback to 0 if undefined
+                    const idA = a.id !== undefined ? a.id : 0;
+                    const idB = b.id !== undefined ? b.id : 0;
+                    return idA-idB; // Ascending order
+                });
+
+                // Display the sorted stories
+                sortedStories.forEach((story, index) => {
+                    // Get the story ID from the sorted data
+                    const storyId = story.id !== undefined ? story.id : sortedStories.length - index;
+                    const storyNumber = storyId.toString().padStart(2, '0'); // Format as 01, 02, etc.
+                    
                     const storyItem = $(`
                         <li class="story-card bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center gap-6 hover:border-[#f7931e] transition-colors">
-                            <span class="text-5xl font-black text-[#f7931e] opacity-80 min-w-[70px]">${level.toUpperCase()}</span>
+                            <div class="flex flex-col items-center min-w-[70px]">
+                                <span class="text-5xl font-black text-[#f7931e] opacity-80">${storyNumber}</span>
+                                <span class="text-xs font-semibold text-gray-400 mt-1">${level.toUpperCase()}</span>
+                            </div>
                             
                             <div class="flex flex-col overflow-hidden">
-                                <a href="/story/${level}/${index}" class="text-xl font-bold text-[#1d4e89] truncate">
+                                <a href="/story/${level}/${storyId}" class="text-xl font-bold text-[#1d4e89] truncate">
                                     ${story.title}
                                 </a>
-                                <p class="text-gray-400 text-sm font-medium">Level: ${level.toUpperCase()}</p>
+                                <div class="flex items-center gap-2 mt-1">
+                                    <p class="text-gray-400 text-sm font-medium">ID: ${storyId}</p>
+                                    <span class="text-gray-300">•</span>
+                                    <p class="text-gray-400 text-sm font-medium">Level: ${level.toUpperCase()}</p>
+                                </div>
                             </div>
                         </li>
                     `);
@@ -37,6 +58,7 @@ $(document).ready(function () {
                 console.error("Error loading stories:", error);
                 $("#story-list").html('<li class="col-span-full text-center py-10 text-red-500">Failed to load stories.</li>');
             });
+            
     }
 
     // Tab Switching Logic
@@ -48,5 +70,6 @@ $(document).ready(function () {
         loadStories(level);
     });
 
+    // Load N5 stories by default
     loadStories("n5");
 });
