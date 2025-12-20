@@ -1,0 +1,30 @@
+{
+  "id": 18,
+  "title": "スポーツクラブの メンバー",
+  "title_romaji": "Supōtsu kurabu no menbā",
+  "text": "いっしゅうかんまえに、ちかくの スポーツクラブの メンバーに なりました。まいにち しごとの あとで、一時間 うんどうします。まず ランニングマシンで はしります。それから マシンで ちからを つよめる れんしゅうを します。ときどき すいえいも します。すいえいは からだに いいです。さいきん、すこし やせました。かおのいろも よくなりました。しごとで つかれても、うんどうすると きぶんが すっきりします。らいげつから グループの ヨガの クラスに さんかしたいと おもっています。せんせいが いいます。「うんどうは まいにち つづけることが たいせつです」。",
+  "text_romaji": "Isshūkan mae ni, chikaku no supōtsu kurabu no menbā ni narimashita. Mainichi shigoto no ato de, ichijikan undō shimasu. Mazu ranningu mashin de hashirimasu. Sorekara mashin de chikara o tsuyomeru renshū o shimasu. Tokidoki suiei mo shimasu. Suiei wa karada ni ii desu. Saikin, sukoshi yasemashita. Kao no iro mo yoku narimashita. Shigoto de tsukarete mo, undō suru to kibun ga sukkiri shimasu. Raigetsu kara gurūpu no yoga no kurasu ni sanka shitai to omotte imasu. Sensei ga iimasu. \"Undō wa mainichi tsuzukeru koto ga taisetsu desu.\"",
+  "english": "One week ago, I became a member of a nearby sports club. Every day after work, I exercise for one hour. First I run on the treadmill. Then I do strength training on machines. Sometimes I also swim. Swimming is good for the body. Recently, I've lost a little weight. My complexion has also improved. Even when tired from work, exercising makes me feel refreshed. Starting next month, I'm thinking of joining the group yoga class. The teacher says, \"It's important to continue exercising every day.\"",
+  "vocab": [
+    {"word": "スポーツクラブ", "meaning": "sports club", "romaji": "supōtsu kurabu"},
+    {"word": "メンバー", "meaning": "member", "romaji": "menbā"},
+    {"word": "うんどう", "meaning": "exercise", "romaji": "undō"},
+    {"word": "ランニングマシン", "meaning": "treadmill", "romaji": "ranningu mashin"},
+    {"word": "はしります", "meaning": "run", "romaji": "hashirimasu"},
+    {"word": "マシン", "meaning": "machine", "romaji": "mashin"},
+    {"word": "ちから", "meaning": "strength, power", "romaji": "chikara"},
+    {"word": "つよめる", "meaning": "strengthen", "romaji": "tsuyomeru"},
+    {"word": "すいえい", "meaning": "swimming", "romaji": "suiei"},
+    {"word": "からだ", "meaning": "body", "romaji": "karada"},
+    {"word": "やせます", "meaning": "lose weight", "romaji": "yasemasu"},
+    {"word": "さいきん", "meaning": "recently", "romaji": "saikin"},
+    {"word": "いろ", "meaning": "color", "romaji": "iro"},
+    {"word": "きぶん", "meaning": "mood, feeling", "romaji": "kibun"},
+    {"word": "すっきり", "meaning": "refreshed", "romaji": "sukkiri"},
+    {"word": "グループ", "meaning": "group", "romaji": "gurūpu"},
+    {"word": "ヨガ", "meaning": "yoga", "romaji": "yoga"},
+    {"word": "さんか", "meaning": "participation", "romaji": "sanka"},
+    {"word": "つづけます", "meaning": "continue", "romaji": "tsuzukemasu"},
+    {"word": "たいせつ", "meaning": "important", "romaji": "taisetsu"}
+  ]
+}

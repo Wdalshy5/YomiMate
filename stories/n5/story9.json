@@ -1,0 +1,31 @@
+{
+  "id": 9,
+  "title": "はじめての アルバイト",
+  "title_romaji": "Hajimete no arubaito",
+  "text": "ことしの 四月から、レストランで アルバイトを はじめました。アルバイトは もくようびと きんようびの ごご 五じから 九じまでです。はじめは むずかしかったですが、いまは だいじょうぶです。しごとの ないようは おさらを あらうことと テーブルを ふくことです。きょねんまで、アルバイトの けいけんが ありませんでした。でも、レストランの ひとたちは みんな しんせつです。まいしゅう やすみのひに おかねを かぞえます。アルバイトで かった おかねで、あたらしい パソコンを かうつもりです。らいげつから じかんを ふやして、もっと はたらきます。",
+  "text_romaji": "Kotoshi no shigatsu kara, resutoran de arubaito o hajimemashita. Arubaito wa mokuyōbi to kin'yōbi no gogo goji kara kuji made desu. Hajime wa muzukashikatta desu ga, ima wa daijōbu desu. Shigoto no naiyō wa osara o arau koto to tēburu o fuku koto desu. Kyonen made, arubaito no keiken ga arimasen deshita. Demo, resutoran no hitotachi wa minna shinsetsu desu. Maishū yasumi no hi ni okane o kazoemasu. Arubaito de katta okane de, atarashii pasokon o kau tsumori desu. Raigetsu kara jikan o fuyashite, motto hatarakimasu.",
+  "english": "From April this year, I started a part-time job at a restaurant. The job is on Thursdays and Fridays from 5 PM to 9 PM. At first it was difficult, but now it's okay. The work involves washing dishes and wiping tables. Until last year, I had no part-time job experience. But the restaurant people are all kind. Every week on my day off, I count my money. With the money earned from the part-time job, I plan to buy a new computer. Starting next month, I will increase my hours and work more.",
+  "vocab": [
+    {"word": "ことし", "meaning": "this year", "romaji": "kotoshi"},
+    {"word": "四月（しがつ）", "meaning": "April", "romaji": "shigatsu"},
+    {"word": "アルバイト", "meaning": "part-time job", "romaji": "arubaito"},
+    {"word": "はじめます", "meaning": "begin, start", "romaji": "hajimemasu"},
+    {"word": "もくようび", "meaning": "Thursday", "romaji": "mokuyōbi"},
+    {"word": "きんようび", "meaning": "Friday", "romaji": "kin'yōbi"},
+    {"word": "むずかしい", "meaning": "difficult", "romaji": "muzukashii"},
+    {"word": "だいじょうぶ", "meaning": "okay, all right", "romaji": "daijōbu"},
+    {"word": "ないよう", "meaning": "content", "romaji": "naiyō"},
+    {"word": "おさら", "meaning": "plate, dish", "romaji": "osara"},
+    {"word": "あらう", "meaning": "wash", "romaji": "arau"},
+    {"word": "ふく", "meaning": "wipe", "romaji": "fuku"},
+    {"word": "きょねん", "meaning": "last year", "romaji": "kyonen"},
+    {"word": "けいけん", "meaning": "experience", "romaji": "keiken"},
+    {"word": "しんせつ", "meaning": "kind", "romaji": "shinsetsu"},
+    {"word": "おかね", "meaning": "money", "romaji": "okane"},
+    {"word": "かぞえます", "meaning": "count", "romaji": "kazoemasu"},
+    {"word": "かった", "meaning": "earned", "romaji": "katta"},
+    {"word": "パソコン", "meaning": "computer", "romaji": "pasokon"},
+    {"word": "つもり", "meaning": "plan, intention", "romaji": "tsumori"},
+    {"word": "はたらきます", "meaning": "work", "romaji": "hatarakimasu"}
+  ]
+}

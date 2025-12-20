@@ -1,11 +1,14 @@
 {
-  "id":0,
-  "title": "ねこの さんぽ",
-  "text": "小さなねこは毎朝さんぽをします。今日は大きな木の下で赤い花を見つけました。ねこは花のにおいをかいで、とても幸せになりました。",
-  "english": "A small cat takes a walk every morning. Today, it found a red flower under a big tree. The cat smelled the flower and felt very happy.",
+  "id": 1,
+  "title": "ねこの いちにち",
+  "title_romaji": "Neko no ichinichi",
+  "text": "ねこが います。ねこは たべます。ねこは ねます。",
+  "text_romaji": "Neko ga imasu. Neko wa tabemasu. Neko wa nemasu.",
+  "english": "There is a cat. The cat eats. The cat sleeps.",
   "vocab": [
-    {"word": "さんぽ", "meaning": "walk"},
-    {"word": "花（はな）", "meaning": "flower"},
-    {"word": "におい", "meaning": "smell"}
+    {"word": "ねこ", "meaning": "cat", "romaji": "neko"},
+    {"word": "います", "meaning": "exists (animate)", "romaji": "imasu"},
+    {"word": "たべます", "meaning": "eat", "romaji": "tabemasu"},
+    {"word": "ねます", "meaning": "sleep", "romaji": "nemasu"}
   ]
 }

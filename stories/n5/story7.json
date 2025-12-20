@@ -1,0 +1,22 @@
+{
+  "id": 7,
+  "title": "にほんへの りょこう",
+  "title_romaji": "Nihon e no ryokō",
+  "text": "らいしゅう、にほんへ りょこうします。ともだちと ふたりで いきます。とうきょうに 一しゅうかん います。ホテルを よやくしました。にほんで おすしを たべたいです。また、ふじさんを みたいです。きんえんの しゃしんを たくさん とります。にもつは まだ じゅんびしていません。とても たのしみです。",
+  "text_romaji": "Raishū, Nihon e ryokō shimasu. Tomodachi to futari de ikimasu. Tōkyō ni isshūkan imasu. Hoteru o yoyaku shimashita. Nihon de osushi o tabetai desu. Mata, Fujisan o mitai desu. Kinen no shashin o takusan torimasu. Nimotsu wa mada junbi shite imasen. Totemo tanoshimi desu.",
+  "english": "Next week, I will travel to Japan. I will go with a friend, two people total. I will be in Tokyo for one week. I reserved a hotel. I want to eat sushi in Japan. Also, I want to see Mt. Fuji. I will take many commemorative photos. I haven't prepared my luggage yet. I'm very excited.",
+  "vocab": [
+    {"word": "らいしゅう", "meaning": "next week", "romaji": "raishū"},
+    {"word": "りょこう", "meaning": "travel", "romaji": "ryokō"},
+    {"word": "ふたり", "meaning": "two people", "romaji": "futari"},
+    {"word": "とうきょう", "meaning": "Tokyo", "romaji": "Tōkyō"},
+    {"word": "ホテル", "meaning": "hotel", "romaji": "hoteru"},
+    {"word": "よやく", "meaning": "reservation", "romaji": "yoyaku"},
+    {"word": "おすし", "meaning": "sushi", "romaji": "osushi"},
+    {"word": "ふじさん", "meaning": "Mt. Fuji", "romaji": "Fujisan"},
+    {"word": "きんえん", "meaning": "commemorative", "romaji": "kinen"},
+    {"word": "しゃしん", "meaning": "photo", "romaji": "shashin"},
+    {"word": "にもつ", "meaning": "luggage", "romaji": "nimotsu"},
+    {"word": "たのしみ", "meaning": "looking forward to", "romaji": "tanoshimi"}
+  ]
+}

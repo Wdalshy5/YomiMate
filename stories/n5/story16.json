@@ -1,0 +1,28 @@
+{
+  "id": 16,
+  "title": "りょこうの よてい",
+  "title_romaji": "Ryokō no yotei",
+  "text": "らいげつの はじめに、かぞくと きょうとへ りょこうします。でんしゃで いきます。きょうとは にほんの ふるい まちです。まず、きんかくじと きょうみずでらを みます。それから にしきの かいに いきます。あきは あさはやく おきて、てらを けんがくします。よるは りょかんで ゆっくり します。おみやげを かいたいです。おばあちゃんに きょうとの おかしを かいます。おとうとは にんぎょうが ほしいと いっていました。しゃしんを たくさん とって、アルバムを つくります。もう きっぷを かいました。とても たのしみです。",
+  "text_romaji": "Raigetsu no hajime ni, kazoku to Kyōto e ryokō shimasu. Densha de ikimasu. Kyōto wa Nihon no furui machi desu. Mazu, Kinkakuji to Kiyomizudera o mimasu. Sorekara Nishiki no kai ni ikimasu. Aki wa asa hayaku okite, tera o kengaku shimasu. Yoru wa ryokan de yukkuri shimasu. Omiyage o kaitai desu. Obāchan ni Kyōto no okashi o kaimasu. Otōto wa ningyō ga hoshii to itte imashita. Shashin o takusan totte, arubamu o tsukurimasu. Mō kippu o kaimashita. Totemo tanoshimi desu.",
+  "english": "At the beginning of next month, I will travel to Kyoto with my family. We'll go by train. Kyoto is an old Japanese city. First, we'll see Kinkakuji and Kiyomizudera. Then we'll go to Nishiki Market. In the fall, we'll wake up early and tour temples. At night we'll relax at the ryokan (Japanese inn). I want to buy souvenirs. I'll buy Kyoto sweets for my grandmother. My younger brother said he wants a doll. I'll take lots of photos and make an album. I already bought the tickets. I'm very excited.",
+  "vocab": [
+    {"word": "よてい", "meaning": "plan, schedule", "romaji": "yotei"},
+    {"word": "はじめ", "meaning": "beginning", "romaji": "hajime"},
+    {"word": "きょうと", "meaning": "Kyoto", "romaji": "Kyōto"},
+    {"word": "でんしゃ", "meaning": "train", "romaji": "densha"},
+    {"word": "ふるい", "meaning": "old", "romaji": "furui"},
+    {"word": "まち", "meaning": "town, city", "romaji": "machi"},
+    {"word": "てら", "meaning": "temple", "romaji": "tera"},
+    {"word": "けんがく", "meaning": "tour, visit", "romaji": "kengaku"},
+    {"word": "りょかん", "meaning": "Japanese inn", "romaji": "ryokan"},
+    {"word": "おみやげ", "meaning": "souvenir", "romaji": "omiyage"},
+    {"word": "おばあちゃん", "meaning": "grandmother", "romaji": "obāchan"},
+    {"word": "おとうと", "meaning": "younger brother", "romaji": "otōto"},
+    {"word": "にんぎょう", "meaning": "doll", "romaji": "ningyō"},
+    {"word": "ほしい", "meaning": "want (something)", "romaji": "hoshii"},
+    {"word": "アルバム", "meaning": "album", "romaji": "arubamu"},
+    {"word": "きっぷ", "meaning": "ticket", "romaji": "kippu"},
+    {"word": "かいます", "meaning": "buy", "romaji": "kaimasu"},
+    {"word": "いっています", "meaning": "said, saying", "romaji": "itte imasu"}
+  ]
+}

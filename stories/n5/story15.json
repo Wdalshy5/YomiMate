@@ -1,0 +1,25 @@
+{
+  "id": 15,
+  "title": "はじめての カラオケ",
+  "title_romaji": "Hajimete no karaoke",
+  "text": "きんようびの よる、ともだちと カラオケに いきました。はじめての カラオケでした。へやには マイクと テレビと ソファが ありました。まっくらに して、うたが はじまりました。まず たけしさんが にほんの うたを うたいました。つぎに ゆみこさんが えいごの うたを うたいました。わたしは はずかしかったですが、みんなが 「うたって！」と いったので、かんたんな うたを うたいました。おちゃと おかしを たべながら、三じかん たのしみました。でるとき、かおが あつかったです。らいげつも いくつもりです。",
+  "text_romaji": "Kin'yōbi no yoru, tomodachi to karaoke ni ikimashita. Hajimete no karaoke deshita. Heya ni wa maiku to terebi to sofa ga arimashita. Makkura ni shite, uta ga hajimarimashita. Mazu Takeshi-san ga Nihon no uta o utaimashita. Tsugi ni Yumiko-san ga Eigo no uta o utaimashita. Watashi wa hazukashikatta desu ga, minna ga \"Uttatte!\" to itta node, kantan na uta o utaimashita. Ocha to okashi o tabenagara, sanjikan tanoshimimashita. Deru toki, kao ga atsukatta desu. Raigetsu mo iku tsumori desu.",
+  "english": "On Friday night, I went to karaoke with friends. It was my first time at karaoke. The room had a microphone, TV, and sofa. We made it dark and the song started. First Takeshi sang a Japanese song. Next Yumiko sang an English song. I was embarrassed, but since everyone said \"Sing!\" I sang a simple song. While drinking tea and eating snacks, we enjoyed ourselves for three hours. When leaving, my face was hot. I plan to go again next month too.",
+  "vocab": [
+    {"word": "カラオケ", "meaning": "karaoke", "romaji": "karaoke"},
+    {"word": "マイク", "meaning": "microphone", "romaji": "maiku"},
+    {"word": "ソファ", "meaning": "sofa", "romaji": "sofa"},
+    {"word": "まっくら", "meaning": "pitch dark", "romaji": "makkura"},
+    {"word": "うた", "meaning": "song", "romaji": "uta"},
+    {"word": "うたいます", "meaning": "sing", "romaji": "utaimasu"},
+    {"word": "えいご", "meaning": "English", "romaji": "eigo"},
+    {"word": "はずかしい", "meaning": "embarrassing", "romaji": "hazukashii"},
+    {"word": "かんたん", "meaning": "simple, easy", "romaji": "kantan"},
+    {"word": "おちゃ", "meaning": "tea", "romaji": "ocha"},
+    {"word": "おかし", "meaning": "snacks, sweets", "romaji": "okashi"},
+    {"word": "ながら", "meaning": "while", "romaji": "nagara"},
+    {"word": "でます", "meaning": "exit, leave", "romaji": "demasu"},
+    {"word": "かお", "meaning": "face", "romaji": "kao"},
+    {"word": "あつい", "meaning": "hot", "romaji": "atsui"}
+  ]
+}

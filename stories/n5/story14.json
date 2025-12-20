@@ -1,0 +1,30 @@
+{
+  "id": 14,
+  "title": "かいものの ひ",
+  "title_romaji": "Kaimono no hi",
+  "text": "どようびに かいものに いきました。まず スーパーで たべものを かいました。やさいと くだものと ぎゅうにゅうを かいました。つぎに ふくやへ いきました。あたらしい シャツと ズボンが ひつようでした。ふくやで 二まいの シャツを みました。ひとつは しろくて、もうひとつは あおでした。どちらも よくて、まよいました。でも、かねが たりなかったので、しろいシャツだけ かいました。かいものかごは おもかったです。",
+  "text_romaji": "Doyōbi ni kaimono ni ikimashita. Mazu sūpā de tabemono o kaimashita. Yasai to kudamono to gyūnyū o kaimashita. Tsugi ni fukuya e ikimashita. Atarashii shatsu to zubon ga hitsuyō deshita. Fukuya de nimai no shatsu o mimashita. Hitotsu wa shirokute, mō hitotsu wa ao deshita. Dochira mo yokute, mayoimashita. Demo, kane ga tarinakatta node, shiroi shatsu dake kaimashita. Kaimono kago wa omokatta desu.",
+  "english": "On Saturday I went shopping. First I bought food at the supermarket. I bought vegetables, fruit, and milk. Next I went to the clothing store. I needed a new shirt and pants. At the clothing store I looked at two shirts. One was white and the other was blue. Both were good and I was undecided. But since I didn't have enough money, I only bought the white shirt. The shopping basket was heavy.",
+  "vocab": [
+    {"word": "かいもの", "meaning": "shopping", "romaji": "kaimono"},
+    {"word": "どようび", "meaning": "Saturday", "romaji": "doyōbi"},
+    {"word": "まず", "meaning": "first", "romaji": "mazu"},
+    {"word": "たべもの", "meaning": "food", "romaji": "tabemono"},
+    {"word": "やさい", "meaning": "vegetables", "romaji": "yasai"},
+    {"word": "くだもの", "meaning": "fruit", "romaji": "kudamono"},
+    {"word": "ぎゅうにゅう", "meaning": "milk", "romaji": "gyūnyū"},
+    {"word": "つぎに", "meaning": "next", "romaji": "tsugi ni"},
+    {"word": "ふくや", "meaning": "clothing store", "romaji": "fukuya"},
+    {"word": "シャツ", "meaning": "shirt", "romaji": "shatsu"},
+    {"word": "ズボン", "meaning": "pants", "romaji": "zubon"},
+    {"word": "ひつよう", "meaning": "necessary", "romaji": "hitsuyō"},
+    {"word": "しろい", "meaning": "white", "romaji": "shiroi"},
+    {"word": "あおい", "meaning": "blue", "romaji": "aoi"},
+    {"word": "どちら", "meaning": "which one", "romaji": "dochira"},
+    {"word": "まよいます", "meaning": "hesitate, be undecided", "romaji": "mayoimasu"},
+    {"word": "たりません", "meaning": "not enough", "romaji": "tarimasen"},
+    {"word": "だけ", "meaning": "only", "romaji": "dake"},
+    {"word": "かご", "meaning": "basket", "romaji": "kago"},
+    {"word": "おもい", "meaning": "heavy", "romaji": "omoi"}
+  ]
+}

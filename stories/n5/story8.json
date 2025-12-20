@@ -1,0 +1,28 @@
+{
+  "id": 8,
+  "title": "あたらしい アパート",
+  "title_romaji": "Atarashii apāto",
+  "text": "こんげつ、あたらしい アパートに ひっこしました。アパートは えきから あるいて 五分です。へやは 二つ あります。だいどころと おふろと トイレが ついています。きのう、かぞくが てつだいに きました。いすと テーブルと ベッドを おきました。あたらしい せいかつが はじまりました。アパートの ちかくに スーパーが あります。とても べんりです。らいしゅう、ともだちを よんで パーティーを します。",
+  "text_romaji": "Kongetsu, atarashii apāto ni hikkoshimashita. Apāto wa eki kara aruite gofun desu. Heya wa futatsu arimasu. Daidokoro to ofuro to toire ga tsuite imasu. Kinō, kazoku ga tetsudai ni kimashita. Isu to tēburu to beddo o okimashita. Atarashii seikatsu ga hajimarimashita. Apāto no chikaku ni sūpā ga arimasu. Totemo benri desu. Raishū, tomodachi o yonde pātī o shimasu.",
+  "english": "This month, I moved to a new apartment. The apartment is a 5-minute walk from the station. There are two rooms. It has a kitchen, bath, and toilet. Yesterday, my family came to help. I put out chairs, a table, and a bed. A new life has begun. There is a supermarket near the apartment. It's very convenient. Next week, I will invite friends and have a party.",
+  "vocab": [
+    {"word": "こんげつ", "meaning": "this month", "romaji": "kongetsu"},
+    {"word": "アパート", "meaning": "apartment", "romaji": "apāto"},
+    {"word": "ひっこす", "meaning": "move (house)", "romaji": "hikkosu"},
+    {"word": "えき", "meaning": "station", "romaji": "eki"},
+    {"word": "あるいて", "meaning": "on foot", "romaji": "aruite"},
+    {"word": "へや", "meaning": "room", "romaji": "heya"},
+    {"word": "だいどころ", "meaning": "kitchen", "romaji": "daidokoro"},
+    {"word": "おふろ", "meaning": "bath", "romaji": "ofuro"},
+    {"word": "トイレ", "meaning": "toilet", "romaji": "toire"},
+    {"word": "てつだい", "meaning": "help", "romaji": "tetsudai"},
+    {"word": "いす", "meaning": "chair", "romaji": "isu"},
+    {"word": "テーブル", "meaning": "table", "romaji": "tēburu"},
+    {"word": "ベッド", "meaning": "bed", "romaji": "beddo"},
+    {"word": "せいかつ", "meaning": "life, lifestyle", "romaji": "seikatsu"},
+    {"word": "ちかく", "meaning": "nearby", "romaji": "chikaku"},
+    {"word": "スーパー", "meaning": "supermarket", "romaji": "sūpā"},
+    {"word": "べんり", "meaning": "convenient", "romaji": "benri"},
+    {"word": "パーティー", "meaning": "party", "romaji": "pātī"}
+  ]
+}

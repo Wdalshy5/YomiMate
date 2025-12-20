@@ -1,11 +1,15 @@
 {
-  "title": "がっこうの ともだち",
-  "text": "がっこうに ともだちが 三人 います。たなかさんと さとうさんと やまださんです。たなかさんは せが たかいです。さとうさんは おもしろい ひとです。",
-  "english": "I have three friends at school. Mr. Tanaka, Mr. Sato, and Mr. Yamada. Mr. Tanaka is tall. Mr. Sato is an interesting person.",
+  "id": 3,
+  "title": "まいにちの しごと",
+  "title_romaji": "Mainichi no shigoto",
+  "text": "あさ はやく おきます。あさごはんを たべて、しごとに いきます。しごとは 九じから 五じまでです。ばんごはんを たべて、ねます。",
+  "text_romaji": "Asa hayaku okimasu. Asagohan o tabete, shigoto ni ikimasu. Shigoto wa kuji kara goji made desu. Bangohan o tabete, nemasu.",
+  "english": "I wake up early in the morning. I eat breakfast and go to work. Work is from 9 to 5. I eat dinner and sleep.",
   "vocab": [
-    {"word": "がっこう", "meaning": "school"},
-    {"word": "ともだち", "meaning": "friend"},
-    {"word": "せ", "meaning": "height"},
-    {"word": "たかい", "meaning": "tall"}
+    {"word": "あさ", "meaning": "morning", "romaji": "asa"},
+    {"word": "おきます", "meaning": "wake up", "romaji": "okimasu"},
+    {"word": "あさごはん", "meaning": "breakfast", "romaji": "asagohan"},
+    {"word": "しごと", "meaning": "work, job", "romaji": "shigoto"},
+    {"word": "ばんごはん", "meaning": "dinner", "romaji": "bangohan"}
   ]
 }

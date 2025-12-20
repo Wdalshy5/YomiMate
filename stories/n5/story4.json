@@ -1,11 +1,17 @@
 {
+  "id": 4,
   "title": "きょうの てんき",
-  "text": "きょうは はれです。そらは あおくて きれいです。でも、あしたは あめかも しれません。てんきよほうを みました。",
-  "english": "Today is sunny. The sky is blue and beautiful. But tomorrow it might rain. I watched the weather forecast.",
+  "title_romaji": "Kyō no tenki",
+  "text": "きょうの てんきは いいです。そらは あおいです。たいようが てっています。わたしは こうえんへ いきます。こうえんで ともだちと あそびます。",
+  "text_romaji": "Kyō no tenki wa ii desu. Sora wa aoi desu. Taiyō ga tette imasu. Watashi wa kōen e ikimasu. Kōen de tomodachi to asobimasu.",
+  "english": "Today's weather is good. The sky is blue. The sun is shining. I go to the park. I play with my friend at the park.",
   "vocab": [
-    {"word": "てんき", "meaning": "weather"},
-    {"word": "はれ", "meaning": "sunny"},
-    {"word": "そら", "meaning": "sky"},
-    {"word": "あめ", "meaning": "rain"}
+    {"word": "きょう", "meaning": "today", "romaji": "kyō"},
+    {"word": "てんき", "meaning": "weather", "romaji": "tenki"},
+    {"word": "そら", "meaning": "sky", "romaji": "sora"},
+    {"word": "あおい", "meaning": "blue", "romaji": "aoi"},
+    {"word": "たいよう", "meaning": "sun", "romaji": "taiyō"},
+    {"word": "こうえん", "meaning": "park", "romaji": "kōen"},
+    {"word": "あそびます", "meaning": "play", "romaji": "asobimasu"}
   ]
 }

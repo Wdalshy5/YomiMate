@@ -1,11 +1,15 @@
 {
-  "title": "わたしの いえ",
-  "text": "わたしの いえは ちいさいです。でも、きれいです。いえの まえに にわが あります。にわには きが 一本と はなが たくさん あります。",
-  "english": "My house is small. But it is pretty. There is a garden in front of the house. In the garden, there is one tree and many flowers.",
+  "id": 2,
+  "title": "あたらしい ともだち",
+  "title_romaji": "Atarashii tomodachi",
+  "text": "わたしは がっこうへ いきます。そこで あたらしい ともだちが います。ともだちと はなします。",
+  "text_romaji": "Watashi wa gakkō e ikimasu. Soko de atarashii tomodachi ga imasu. Tomodachi to hanashimasu.",
+  "english": "I go to school. There is a new friend there. I talk with my friend.",
   "vocab": [
-    {"word": "いえ", "meaning": "house"},
-    {"word": "ちいさい", "meaning": "small"},
-    {"word": "にわ", "meaning": "garden"},
-    {"word": "一本（いっぽん）", "meaning": "one (long object)"}
+    {"word": "わたし", "meaning": "I, me", "romaji": "watashi"},
+    {"word": "がっこう", "meaning": "school", "romaji": "gakkō"},
+    {"word": "いきます", "meaning": "go", "romaji": "ikimasu"},
+    {"word": "ともだち", "meaning": "friend", "romaji": "tomodachi"},
+    {"word": "はなします", "meaning": "speak, talk", "romaji": "hanashimasu"}
   ]
 }

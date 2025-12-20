@@ -1,0 +1,32 @@
+{
+  "id": 25,
+  "title": "にほんごの しけんに ごうかく",
+  "title_romaji": "Nihongo no shiken ni gōkaku",
+  "text": "きょねんの はじめ、わたしは にほんごを べんきょうしはじめました。まいにち いちじかん、じぶんで べんきょうしました。そして、がっこうにも いきました。せんせいは しんせつで、おもしろかったです。はじめは ひらがなも わかりませんでした。でも、まいにち れんしゅうしました。ごげつまえ、N5の しけんを うけました。しけんのまえ、とても しんぱいでした。しけんは もじ・ごい、ちょうかい、どっかいの さんぶんがあります。もっとも むずかしかったのは どっかいでした。きのう、けっかが きました。そして、ごうかくしていました！とても うれしかったです。すぐに かぞくと ともだちに でんわしました。みんな よろこんでくれました。いまは N4の べんきょうを はじめています。らいねんの しけんに ごうかくするために、がんばります。にほんごの べんきょうは たのしいです。",
+  "text_romaji": "Kyonen no hajime, watashi wa Nihongo o benkyō shihajimemashita. Mainichi ichijikan, jibun de benkyō shimashita. Soshite, gakkō ni mo ikimashita. Sensei wa shinsetsu de, omoshirokatta desu. Hajime wa hiragana mo wakarimasen deshita. Demo, mainichi renshū shimashita. Gogetsu mae, N5 no shiken o ukemashita. Shiken no mae, totemo shinpai deshita. Shiken wa moji・goi, chōkai, dokkai no sanbun ga arimasu. Motto mo muzukashikatta no wa dokkai deshita. Kinō, kekka ga kimashita. Soshite, gōkaku shite imashita! Totemo ureshikatta desu. Sugu ni kazoku to tomodachi ni denwa shimashita. Minna yorokonde kuremashita. Ima wa N4 no benkyō o hajimete imasu. Rainen no shiken ni gōkaku suru tame ni, ganbarimasu. Nihongo no benkyō wa tanoshii desu.",
+  "english": "At the beginning of last year, I started studying Japanese. Every day for one hour, I studied by myself. And I also went to school. The teacher was kind and interesting. At first, I didn't even understand hiragana. But I practiced every day. Five months ago, I took the N5 exam. Before the exam, I was very worried. The exam has three parts: characters/vocabulary, listening, and reading comprehension. The most difficult was reading comprehension. Yesterday, the results came. And I had passed! I was very happy. Immediately I called my family and friends. Everyone was happy for me. Now I've started studying for N4. To pass next year's exam, I'll do my best. Studying Japanese is fun.",
+  "vocab": [
+    {"word": "しけん", "meaning": "exam", "romaji": "shiken"},
+    {"word": "ごうかく", "meaning": "passing (exam)", "romaji": "gōkaku"},
+    {"word": "はじめます", "meaning": "begin", "romaji": "hajimemasu"},
+    {"word": "じぶんで", "meaning": "by oneself", "romaji": "jibun de"},
+    {"word": "ひらがな", "meaning": "hiragana", "romaji": "hiragana"},
+    {"word": "れんしゅう", "meaning": "practice", "romaji": "renshū"},
+    {"word": "ごげつ", "meaning": "five months", "romaji": "gogetsu"},
+    {"word": "うけます", "meaning": "take (exam)", "romaji": "ukemasu"},
+    {"word": "しんぱい", "meaning": "worry", "romaji": "shinpai"},
+    {"word": "もじ", "meaning": "characters", "romaji": "moji"},
+    {"word": "ごい", "meaning": "vocabulary", "romaji": "goi"},
+    {"word": "ちょうかい", "meaning": "listening", "romaji": "chōkai"},
+    {"word": "どっかい", "meaning": "reading comprehension", "romaji": "dokkai"},
+    {"word": "ぶん", "meaning": "part", "romaji": "bun"},
+    {"word": "もっとも", "meaning": "most", "romaji": "mottomo"},
+    {"word": "けっか", "meaning": "result", "romaji": "kekka"},
+    {"word": "よろこびます", "meaning": "be happy, rejoice", "romaji": "yorokobimasu"},
+    {"word": "すぐに", "meaning": "immediately", "romaji": "sugu ni"},
+    {"word": "でんわします", "meaning": "call (phone)", "romaji": "denwa shimasu"},
+    {"word": "ため", "meaning": "for the purpose of", "romaji": "tame"},
+    {"word": "N4", "meaning": "Japanese Language Level N4", "romaji": "N4"},
+    {"word": "さっき", "meaning": "just now, recently", "romaji": "sakki"}
+  ]
+}

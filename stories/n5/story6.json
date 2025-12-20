@@ -1,0 +1,19 @@
+{
+  "id": 6,
+  "title": "がくせいの せいかつ",
+  "title_romaji": "Gakusei no seikatsu",
+  "text": "わたしは だいがくせいです。まいあさ 八じに おきます。九じから 三じまで じゅぎょうが あります。ときどき としょかんへ べんきょうに いきます。よるは テレビを みます。まいばん 十一じごろ ねます。しゅうまつは ともだちと えいがを みに いきます。",
+  "text_romaji": "Watashi wa daigakusei desu. Maiasa hachiji ni okimasu. Kuji kara sanji made jugyō ga arimasu. Tokidoki toshokan e benkyō ni ikimasu. Yoru wa terebi o mimasu. Maiban jūichiji goro nemasu. Shūmatsu wa tomodachi to eiga o mi ni ikimasu.",
+  "english": "I am a university student. Every morning I wake up at 8. There are classes from 9 to 3. Sometimes I go to the library to study. At night I watch TV. Every night I sleep around 11. On weekends, I go with friends to watch movies.",
+  "vocab": [
+    {"word": "だいがくせい", "meaning": "university student", "romaji": "daigakusei"},
+    {"word": "まいあさ", "meaning": "every morning", "romaji": "maiasa"},
+    {"word": "じゅぎょう", "meaning": "class, lesson", "romaji": "jugyō"},
+    {"word": "としょかん", "meaning": "library", "romaji": "toshokan"},
+    {"word": "べんきょう", "meaning": "study", "romaji": "benkyō"},
+    {"word": "テレビ", "meaning": "TV", "romaji": "terebi"},
+    {"word": "まいばん", "meaning": "every night", "romaji": "maiban"},
+    {"word": "しゅうまつ", "meaning": "weekend", "romaji": "shūmatsu"},
+    {"word": "えいが", "meaning": "movie", "romaji": "eiga"}
+  ]
+}

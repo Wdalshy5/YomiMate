@@ -1,0 +1,27 @@
+{
+  "id": 17,
+  "title": "しごとの めんせつ",
+  "title_romaji": "Shigoto no mensetsu",
+  "text": "らいしゅうの もくようび、あたらしい しごとの めんせつが あります。めんせつは ごご 二じから こうしゃで あります。スーツを きて、いきます。せつめいしょを もって、いかなければなりません。あたらしい かいしゃは がいこくの かいしゃです。にほんごと えいごが つかえます。めんせつでは じぶんの けいけんと きょうみを はなします。しつもんが たくさん あります。たとえば、「なぜ この かいしゃで はたらきたいですか」とか「とくいな ことは なんですか」などです。こたえを れんしゅうしています。こんしゅうまつは じゅんびで いそがしいです。がんばります。",
+  "text_romaji": "Raishū no mokuyōbi, atarashii shigoto no mensetsu ga arimasu. Mensetsu wa gogo niji kara kōsha de arimasu. Sūtsu o kite, ikimasu. Setsumeisho o motte, ikanakereba narimasen. Atarashii kaisha wa gaikoku no kaisha desu. Nihongo to Eigo ga tsukaemasu. Mensetsu de wa jibun no keiken to kyōmi o hanashimasu. Shitsumon ga takusan arimasu. Tatoeba, \"Naze kono kaisha de hatarakitai desu ka\" toka \"Tokui na koto wa nan desu ka\" nado desu. Kotae o renshū shite imasu. Konshūmatsu wa junbi de isogashii desu. Ganbarimasu.",
+  "english": "Next Thursday, I have an interview for a new job. The interview is at the company office from 2 PM. I'll wear a suit and go. I must bring the documents. The new company is a foreign company. I can use Japanese and English. In the interview, I'll talk about my experience and interests. There are many questions. For example, \"Why do you want to work at this company?\" or \"What are you good at?\" etc. I'm practicing my answers. This weekend is busy with preparation. I'll do my best.",
+  "vocab": [
+    {"word": "めんせつ", "meaning": "interview", "romaji": "mensetsu"},
+    {"word": "スーツ", "meaning": "suit", "romaji": "sūtsu"},
+    {"word": "きます", "meaning": "wear (on body)", "romaji": "kimasu"},
+    {"word": "せつめいしょ", "meaning": "documents, explanation papers", "romaji": "setsumeisho"},
+    {"word": "もっていきます", "meaning": "bring, take", "romaji": "motte ikimasu"},
+    {"word": "がいこく", "meaning": "foreign country", "romaji": "gaikoku"},
+    {"word": "かいしゃ", "meaning": "company", "romaji": "kaisha"},
+    {"word": "つかえます", "meaning": "can use", "romaji": "tsukaemasu"},
+    {"word": "じぶん", "meaning": "oneself", "romaji": "jibun"},
+    {"word": "きょうみ", "meaning": "interest", "romaji": "kyōmi"},
+    {"word": "しつもん", "meaning": "question", "romaji": "shitsumon"},
+    {"word": "たとえば", "meaning": "for example", "romaji": "tatoeba"},
+    {"word": "なぜ", "meaning": "why", "romaji": "naze"},
+    {"word": "など", "meaning": "etc.", "romaji": "nado"},
+    {"word": "こたえ", "meaning": "answer", "romaji": "kotae"},
+    {"word": "こんしゅうまつ", "meaning": "this weekend", "romaji": "konshūmatsu"},
+    {"word": "いそがしい", "meaning": "busy", "romaji": "isogashii"}
+  ]
+}

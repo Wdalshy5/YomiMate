@@ -1,0 +1,25 @@
+{
+  "id": 11,
+  "title": "びょうきの ひ",
+  "title_romaji": "Byōki no hi",
+  "text": "きのうから あたまが いたいです。きょうは ねつも あります。おかあさんが びょういんへ つれて いってくれました。おいしゃさんは 「かぜです」と いいました。くすりを もらって、うちへ かえりました。おかあさんが おかゆを つくってくれました。きょうは やすんで、ゆっくり します。あしたは げんきに なりたいです。",
+  "text_romaji": "Kinō kara atama ga itai desu. Kyō wa netsu mo arimasu. Okāsan ga byōin e tsurete itte kuremashita. Oishasan wa \"kaze desu\" to iimashita. Kusuri o moratte, uchi e kaerimashita. Okāsan ga okayu o tsukutte kuremashita. Kyō wa yasunde, yukkuri shimasu. Ashita wa genki ni naritai desu.",
+  "english": "My head has been hurting since yesterday. Today I also have a fever. My mother took me to the hospital. The doctor said, \"It's a cold.\" I received medicine and returned home. My mother made me rice porridge. Today I'll rest and take it easy. I want to be healthy tomorrow.",
+  "vocab": [
+    {"word": "びょうき", "meaning": "sickness, illness", "romaji": "byōki"},
+    {"word": "あたま", "meaning": "head", "romaji": "atama"},
+    {"word": "いたい", "meaning": "painful, hurts", "romaji": "itai"},
+    {"word": "ねつ", "meaning": "fever", "romaji": "netsu"},
+    {"word": "おかあさん", "meaning": "mother", "romaji": "okāsan"},
+    {"word": "びょういん", "meaning": "hospital", "romaji": "byōin"},
+    {"word": "おいしゃさん", "meaning": "doctor", "romaji": "oishasan"},
+    {"word": "かぜ", "meaning": "cold", "romaji": "kaze"},
+    {"word": "くすり", "meaning": "medicine", "romaji": "kusuri"},
+    {"word": "もらいます", "meaning": "receive", "romaji": "moraimasu"},
+    {"word": "かえります", "meaning": "return", "romaji": "kaerimasu"},
+    {"word": "おかゆ", "meaning": "rice porridge", "romaji": "okayu"},
+    {"word": "つくります", "meaning": "make", "romaji": "tsukurimasu"},
+    {"word": "やすみます", "meaning": "rest", "romaji": "yasumimasu"},
+    {"word": "げんき", "meaning": "healthy, energetic", "romaji": "genki"}
+  ]
+}

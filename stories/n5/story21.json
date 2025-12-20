@@ -1,0 +1,28 @@
+{
+  "id": 21,
+  "title": "ともだちの けっこんしき",
+  "title_romaji": "Tomodachi no kekkonshiki",
+  "text": "こんしゅうの にちようび、さいしょの ともだちの けっこんしきが あります。けっこんしきは ホテルで あります。わたしは けっこんしきが はじめてです。なにを きたら いいか、わかりませんでした。ともだちに きいたら、「きれいな ワンピースか スーツが いいですよ」と いいました。わたしは あおい ワンピースを かいました。しきでは たのしい おんがくが あります。しんぷと しんふが けっこんの やくそくを します。みんなで おさけを のんで、おいしい りょうりを たべます。あとで ダンスも あります。ともだちの しあわせそうな かおを みて、わたしも うれしくなりました。プレゼントに おかねを あげます。とても きれいな けっこんしきでした。",
+  "text_romaji": "Konshū no nichiyōbi, saisho no tomodachi no kekkonshiki ga arimasu. Kekkonshiki wa hoteru de arimasu. Watashi wa kekkonshiki ga hajimete desu. Nani o kitara ii ka, wakarimasen deshita. Tomodachi ni kitara, \"kirei na wanpīsu ka sūtsu ga ii desu yo\" to iimashita. Watashi wa aoi wanpīsu o kaimashita. Shiki de wa tanoshii ongaku ga arimasu. Shinpu to shinfu ga kekkon no yakusoku o shimasu. Minna de osake o nonde, oishii ryōri o tabemasu. Ato de dansu mo arimasu. Tomodachi no shiawasesō na kao o mite, watashi mo ureshiku narimashita. Purezento ni okane o agemasu. Totemo kirei na kekkonshiki deshita.",
+  "english": "This Sunday, there's my first friend's wedding ceremony. The wedding is at a hotel. It's my first wedding ceremony. I didn't know what to wear. When I asked my friend, she said, \"A nice dress or suit is good.\" I bought a blue dress. At the ceremony, there's happy music. The bride and groom make wedding promises. Everyone drinks alcohol and eats delicious food. Later there's also dancing. Seeing my friend's happy-looking face, I also became happy. I'll give money as a gift. It was a very beautiful wedding ceremony.",
+  "vocab": [
+    {"word": "けっこんしき", "meaning": "wedding ceremony", "romaji": "kekkonshiki"},
+    {"word": "さいしょ", "meaning": "first", "romaji": "saisho"},
+    {"word": "ホテル", "meaning": "hotel", "romaji": "hoteru"},
+    {"word": "ワンピース", "meaning": "dress", "romaji": "wanpīsu"},
+    {"word": "きれい", "meaning": "beautiful, clean", "romaji": "kirei"},
+    {"word": "おんがく", "meaning": "music", "romaji": "ongaku"},
+    {"word": "しんぷ", "meaning": "bride", "romaji": "shinpu"},
+    {"word": "しんふ", "meaning": "groom", "romaji": "shinfu"},
+    {"word": "やくそく", "meaning": "promise", "romaji": "yakusoku"},
+    {"word": "おさけ", "meaning": "alcohol, sake", "romaji": "osake"},
+    {"word": "りょうり", "meaning": "cooking, dish", "romaji": "ryōri"},
+    {"word": "ダンス", "meaning": "dance", "romaji": "dansu"},
+    {"word": "しあわせ", "meaning": "happiness", "romaji": "shiawase"},
+    {"word": "うれしい", "meaning": "happy", "romaji": "ureshii"},
+    {"word": "プレゼント", "meaning": "present", "romaji": "purezento"},
+    {"word": "あげます", "meaning": "give", "romaji": "agemasu"},
+    {"word": "かお", "meaning": "face", "romaji": "kao"},
+    {"word": "おいしい", "meaning": "delicious", "romaji": "oishii"}
+  ]
+}

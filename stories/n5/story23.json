@@ -1,0 +1,28 @@
+{
+  "id": 23,
+  "title": "えいがかんの アルバイト",
+  "title_romaji": "Eigakan no arubaito",
+  "text": "ことしの なつから、えいがかんで アルバイトを しています。しごとは チケットを うったり、ポップコーンを つくったり します。えいがかんは しゅうまつが いちばん いそがしいです。おおぜいの きゃくが きます。ときどき ちいさな こどもが えいがを みに きます。こどもたちは とても かわいいです。しごとは ときどき たいへんですが、えいがが すきなので たのしいです。まいしゅう むりょうで えいがが みられます。ともだちと いっしょに みることも あります。この アルバイトで、おきゃくさんとの はなしかたが じょうずに なりました。らいねんも つづけたいと おもっています。もっと おかねを ためて、りょこうに いきたいです。",
+  "text_romaji": "Kotoshi no natsu kara, eigakan de arubaito o shite imasu. Shigoto wa chiketto o uttari, poppukōn o tsukuttari shimasu. Eigakan wa shūmatsu ga ichiban isogashii desu. Ōzei no kyaku ga kimasu. Tokidoki chiisana kodomo ga eiga o mi ni kimasu. Kodomotachi wa totemo kawaii desu. Shigoto wa tokidoki taihen desu ga, eiga ga suki na node tanoshii desu. Maishū muryō de eiga ga miraremasu. Tomodachi to issho ni miru koto mo arimasu. Kono arubaito de, okyakusan to no hanashikata ga jōzu ni narimashita. Rainen mo tsuzuketai to omotte imasu. Motto okane o tamete, ryokō ni ikitai desu.",
+  "english": "Since this summer, I've been working part-time at a movie theater. The work involves selling tickets, making popcorn, etc. The movie theater is busiest on weekends. Many customers come. Sometimes small children come to watch movies. The children are very cute. The work is sometimes tough, but since I like movies, it's fun. Every week I can watch movies for free. Sometimes I watch with friends. Through this part-time job, I've become better at talking with customers. I think I want to continue next year too. I want to save more money and travel.",
+  "vocab": [
+    {"word": "えいがかん", "meaning": "movie theater", "romaji": "eigakan"},
+    {"word": "なつ", "meaning": "summer", "romaji": "natsu"},
+    {"word": "チケット", "meaning": "ticket", "romaji": "chiketto"},
+    {"word": "うります", "meaning": "sell", "romaji": "urimasu"},
+    {"word": "ポップコーン", "meaning": "popcorn", "romaji": "poppukōn"},
+    {"word": "おおぜい", "meaning": "many people", "romaji": "ōzei"},
+    {"word": "きゃく", "meaning": "customer, guest", "romaji": "kyaku"},
+    {"word": "こども", "meaning": "child", "romaji": "kodomo"},
+    {"word": "かわいい", "meaning": "cute", "romaji": "kawaii"},
+    {"word": "たいへん", "meaning": "tough, difficult", "romaji": "taihen"},
+    {"word": "すき", "meaning": "like", "romaji": "suki"},
+    {"word": "むりょう", "meaning": "free of charge", "romaji": "muryō"},
+    {"word": "みられます", "meaning": "can see, can watch", "romaji": "miraremasu"},
+    {"word": "はなしかた", "meaning": "way of speaking", "romaji": "hanashikata"},
+    {"word": "なりました", "meaning": "became", "romaji": "narimashita"},
+    {"word": "つづけたい", "meaning": "want to continue", "romaji": "tsuzuketai"},
+    {"word": "りょこう", "meaning": "travel", "romaji": "ryokō"},
+    {"word": "いちばん", "meaning": "most", "romaji": "ichiban"}
+  ]
+}

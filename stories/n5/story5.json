@@ -1,11 +1,17 @@
 {
-  "title": "しごとと かいしゃ",
-  "text": "わたしは かいしゃで はたらきます。しごとは 九時から 五時までです。かいしゃは えきから とおいです。でんしゃで いきます。",
-  "english": "I work at a company. Work is from 9 to 5. The company is far from the station. I go by train.",
+  "id": 5,
+  "title": "かぞくの ひ",
+  "title_romaji": "Kazoku no hi",
+  "text": "にちようびに、かぞくで レストランへ いきました。ちちは にくを たべました。ははは さかなを たべました。あには やさいが すきです。いもうとは アイスクリームを たべました。みんな たのしかったです。",
+  "text_romaji": "Nichiyōbi ni, kazoku de resutoran e ikimashita. Chichi wa niku o tabemashita. Haha wa sakana o tabemashita. Ani wa yasai ga suki desu. Imōto wa aisukurīmu o tabemashita. Minna tanoshikatta desu.",
+  "english": "On Sunday, the family went to a restaurant. Father ate meat. Mother ate fish. My older brother likes vegetables. My younger sister ate ice cream. Everyone had fun.",
   "vocab": [
-    {"word": "しごと", "meaning": "work"},
-    {"word": "かいしゃ", "meaning": "company"},
-    {"word": "はたらきます", "meaning": "work"},
-    {"word": "でんしゃ", "meaning": "train"}
+    {"word": "にちようび", "meaning": "Sunday", "romaji": "nichiyōbi"},
+    {"word": "かぞく", "meaning": "family", "romaji": "kazoku"},
+    {"word": "ちち", "meaning": "father", "romaji": "chichi"},
+    {"word": "はは", "meaning": "mother", "romaji": "haha"},
+    {"word": "あに", "meaning": "older brother", "romaji": "ani"},
+    {"word": "いもうと", "meaning": "younger sister", "romaji": "imōto"},
+    {"word": "たのしかった", "meaning": "was fun", "romaji": "tanoshikatta"}
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": 13,
+  "title": "たいふうの ひ",
+  "title_romaji": "Taifū no hi",
+  "text": "きょうは たいふうが きます。あさから あめが ふっています。かぜも つよいです。がっこうは やすみでした。うちで いちにち すごしました。あさは ほんを よみました。ごごは テレビを みました。よる、でんわが なりました。ともだちの ゆみこさんでした。「だいじょうぶですか」と ききました。わたしは 「はい、だいじょうぶです。うちに います」と こたえました。あしたの てんきは よくなるそうです。",
+  "text_romaji": "Kyō wa taifū ga kimasu. Asa kara ame ga futte imasu. Kaze mo tsuyoi desu. Gakkō wa yasumi deshita. Uchi de ichinichi sugoshimashita. Asa wa hon o yomimashita. Gogo wa terebi o mimashita. Yoru, denwa ga narimashita. Tomodachi no Yumiko-san deshita. \"Daijōbu desu ka\" to kikimashita. Watashi wa \"Hai, daijōbu desu. Uchi ni imasu\" to kotaemashita. Ashita no tenki wa yoku naru sō desu.",
+  "english": "Today a typhoon is coming. It has been raining since morning. The wind is also strong. School was closed. I spent the whole day at home. In the morning I read a book. In the afternoon I watched TV. At night, the phone rang. It was my friend Yumiko. She asked, \"Are you okay?\" I answered, \"Yes, I'm okay. I'm at home.\" They say tomorrow's weather will get better.",
+  "vocab": [
+    {"word": "たいふう", "meaning": "typhoon", "romaji": "taifū"},
+    {"word": "あめ", "meaning": "rain", "romaji": "ame"},
+    {"word": "ふります", "meaning": "fall (rain/snow)", "romaji": "furimasu"},
+    {"word": "つよい", "meaning": "strong", "romaji": "tsuyoi"},
+    {"word": "すごします", "meaning": "spend time", "romaji": "sugoshimasu"},
+    {"word": "ほん", "meaning": "book", "romaji": "hon"},
+    {"word": "よみます", "meaning": "read", "romaji": "yomimasu"},
+    {"word": "でんわ", "meaning": "telephone", "romaji": "denwa"},
+    {"word": "なります", "meaning": "ring, become", "romaji": "narimasu"},
+    {"word": "ききます", "meaning": "ask, listen", "romaji": "kikimasu"},
+    {"word": "こたえます", "meaning": "answer", "romaji": "kotaemasu"},
+    {"word": "よくなる", "meaning": "get better", "romaji": "yoku naru"},
+    {"word": "そうです", "meaning": "I hear that, they say", "romaji": "sō desu"}
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 12,
+  "title": "としょかんでの じかん",
+  "title_romaji": "Toshokan de no jikan",
+  "text": "きょうは としょかんで しゅくだいを しました。しゅくだいは にほんごの ぶんぽうでした。ともだちの たけしさんも きました。たけしさんは すうがくが とくいです。わたしは すうがくが にがてなので、たけしさんに おしえてもらいました。そのかわり、わたしは にほんごを おしえました。三じかん べんきょうして、つかれました。としょかんの よこに きっさてんが あります。そこで コーヒーを のんで、ちょっと やすみました。",
+  "text_romaji": "Kyō wa toshokan de shukudai o shimashita. Shukudai wa Nihongo no bunpō deshita. Tomodachi no Takeshi-san mo kimashita. Takeshi-san wa sūgaku ga tokui desu. Watashi wa sūgaku ga nigate na node, Takeshi-san ni oshiete moraimashita. Sonokawari, watashi wa Nihongo o oshiemashita. Sanjikan benkyō shite, tsukaremashita. Toshokan no yoko ni kissaten ga arimasu. Soko de kōhī o nonde, chotto yasumimashita.",
+  "english": "Today I did homework at the library. The homework was Japanese grammar. My friend Takeshi also came. Takeshi is good at math. Since I'm bad at math, I had Takeshi teach me. In return, I taught Japanese. I studied for three hours and got tired. There's a cafe next to the library. There I drank coffee and rested a little.",
+  "vocab": [
+    {"word": "しゅくだい", "meaning": "homework", "romaji": "shukudai"},
+    {"word": "ぶんぽう", "meaning": "grammar", "romaji": "bunpō"},
+    {"word": "すうがく", "meaning": "mathematics", "romaji": "sūgaku"},
+    {"word": "とくい", "meaning": "good at", "romaji": "tokui"},
+    {"word": "にがて", "meaning": "bad at", "romaji": "nigate"},
+    {"word": "おしえます", "meaning": "teach", "romaji": "oshiemasu"},
+    {"word": "そのかわり", "meaning": "in return", "romaji": "sonokawari"},
+    {"word": "つかれます", "meaning": "get tired", "romaji": "tsukaremasu"},
+    {"word": "きっさてん", "meaning": "cafe", "romaji": "kissaten"},
+    {"word": "よこ", "meaning": "next to, beside", "romaji": "yoko"},
+    {"word": "コーヒー", "meaning": "coffee", "romaji": "kōhī"},
+    {"word": "のみます", "meaning": "drink", "romaji": "nomimasu"},
+    {"word": "ちょっと", "meaning": "a little", "romaji": "chotto"}
+  ]
+}

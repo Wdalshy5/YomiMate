@@ -1,0 +1,28 @@
+{
+  "id": 22,
+  "title": "でんわの トラブル",
+  "title_romaji": "Denwa no toraburu",
+  "text": "きのう、でんわが こわれて しまいました。でんわを つかっているとき、てから おとして、がラスが われました。でんわは まだ つかえますが、がラスに ひびが はいっています。あたらしい でんわが ほしいですが、たかいので、こまっています。ともだちが 「がラスだけ しゅうりしたら やすいですよ」と おしえてくれました。きょうの ひるやすみに、でんわやへ いって、しゅうりの ねだんを きいてみます。もし やすかったら、しゅうりします。たかかったら、もうすこし おかねを ためてから あたらしいのでんわを かいます。でんわが ないと、ともだちに れんらくできませんし、しごとも できません。はやく かいけつしたいです。",
+  "text_romaji": "Kinō, denwa ga kowarete shimaimashita. Denwa o tsukatte iru toki, te kara otoshite, garasu ga waremashita. Denwa wa mada tsukaemasu ga, garasu ni hibi ga haitte imasu. Atarashii denwa ga hoshii desu ga, takai node, komatte imasu. Tomodachi ga \"garasu dake shūri shitara yasui desu yo\" oshiete kuremashita. Kyō no hiruyasumi ni, denwaya e itte, shūri no nedan o kiite mimasu. Moshi yasukattara, shūri shimasu. Takakattara, mō sukoshi okane o tamete kara atarashii denwa o kaimasu. Denwa ga nai to, tomodachi ni renraku dekimasen shi, shigoto mo dekimasen. Hayaku kaiketsu shitai desu.",
+  "english": "Yesterday, my phone broke. While using the phone, I dropped it from my hand and the glass broke. The phone still works, but there are cracks in the glass. I want a new phone, but it's expensive so I'm troubled. A friend told me, \"If you only repair the glass, it's cheap.\" During today's lunch break, I'll go to a phone shop and ask about repair prices. If it's cheap, I'll repair it. If it's expensive, I'll save a little more money then buy a new phone. Without a phone, I can't contact friends and can't work either. I want to resolve this quickly.",
+  "vocab": [
+    {"word": "トラブル", "meaning": "trouble", "romaji": "toraburu"},
+    {"word": "こわれます", "meaning": "break, be broken", "romaji": "kowaremasu"},
+    {"word": "おとします", "meaning": "drop", "romaji": "otoshimasu"},
+    {"word": "ガラス", "meaning": "glass", "romaji": "garasu"},
+    {"word": "われます", "meaning": "break, crack", "romaji": "waremasu"},
+    {"word": "ひび", "meaning": "crack", "romaji": "hibi"},
+    {"word": "はいります", "meaning": "enter, have", "romaji": "hairimasu"},
+    {"word": "たかい", "meaning": "expensive, tall", "romaji": "takai"},
+    {"word": "こまります", "meaning": "be troubled", "romaji": "komarimasu"},
+    {"word": "しゅうり", "meaning": "repair", "romaji": "shūri"},
+    {"word": "やすい", "meaning": "cheap", "romaji": "yasui"},
+    {"word": "でんわや", "meaning": "phone shop", "romaji": "denwaya"},
+    {"word": "ねだん", "meaning": "price", "romaji": "nedan"},
+    {"word": "きいてみます", "meaning": "try asking", "romaji": "kiite mimasu"},
+    {"word": "かいけつ", "meaning": "solution, resolution", "romaji": "kaiketsu"},
+    {"word": "れんらく", "meaning": "contact, get in touch", "romaji": "renraku"},
+    {"word": "ひるやすみ", "meaning": "lunch break", "romaji": "hiruyasumi"},
+    {"word": "し", "meaning": "and (for negative clauses)", "romaji": "shi"}
+  ]
+}

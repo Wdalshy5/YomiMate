@@ -1,0 +1,28 @@
+{
+  "id": 19,
+  "title": "にほんの せいかつに なれる",
+  "title_romaji": "Nihon no seikatsu ni nareru",
+  "text": "さんかげつまえに にほんに きました。はじめは なんでも ふべんでした。でんしゃの のりかたも、かいものの しかたも わかりませんでした。でも、いまは だいぶ なれてきました。まいあさ でんしゃに のって、しごとに いきます。でんしゃは こみますが、もう きにしません。しょくじも なれました。はしを つかって、ごはんを たべます。にほんの ともだちも できました。ときどき いっしょに のみに いきます。にほんごは まだ じょうずでは ありませんが、かいわは だいたい わかります。らいげつは ふくおかへ りょこうする よていです。にほんの せいかつは いそがしいですが、たのしいです。これからも がんばって せいかつしたいです。",
+  "text_romaji": "Sankagetsu mae ni Nihon ni kimashita. Hajime wa nan demo fuben deshita. Densha no norikata mo, kaimono no shikata mo wakarimasen deshita. Demo, ima wa daibu narete kimashita. Maiasa densha ni notte, shigoto ni ikimasu. Densha wa komimasu ga, mō ki ni shimasen. Shokuji mo naremashita. Hashi o tsukatte, gohan o tabemasu. Nihon no tomodachi mo dekimashita. Tokidoki issho ni nomi ni ikimasu. Nihongo wa mada jōzu de wa arimasen ga, kaiwa wa daitai wakarimasu. Raigetsu wa Fukuoka e ryokō suru yotei desu. Nihon no seikatsu wa isogashii desu ga, tanoshii desu. Kore kara mo ganbatte seikatsu shitai desu.",
+  "english": "I came to Japan three months ago. At first, everything was inconvenient. I didn't understand how to ride trains or how to shop. But now I've gotten quite used to it. Every morning I ride the train to work. The trains are crowded, but I don't mind anymore. I've also gotten used to meals. I use chopsticks to eat rice. I've also made Japanese friends. Sometimes we go drinking together. My Japanese is still not good, but I mostly understand conversations. Next month I plan to travel to Fukuoka. Life in Japan is busy but fun. I want to continue living here doing my best.",
+  "vocab": [
+    {"word": "なれる", "meaning": "get used to", "romaji": "nareru"},
+    {"word": "さんかげつ", "meaning": "three months", "romaji": "sankagetsu"},
+    {"word": "ふべん", "meaning": "inconvenient", "romaji": "fuben"},
+    {"word": "のりかた", "meaning": "way of riding", "romaji": "norikata"},
+    {"word": "しかた", "meaning": "way of doing", "romaji": "shikata"},
+    {"word": "だいぶ", "meaning": "considerably", "romaji": "daibu"},
+    {"word": "こみます", "meaning": "be crowded", "romaji": "komimasu"},
+    {"word": "きにします", "meaning": "mind, care about", "romaji": "ki ni shimasu"},
+    {"word": "しょくじ", "meaning": "meal", "romaji": "shokuji"},
+    {"word": "はし", "meaning": "chopsticks", "romaji": "hashi"},
+    {"word": "ごはん", "meaning": "rice, meal", "romaji": "gohan"},
+    {"word": "できます", "meaning": "make (friends), can do", "romaji": "dekimasu"},
+    {"word": "のみ", "meaning": "drinking", "romaji": "nomi"},
+    {"word": "じょうず", "meaning": "skillful, good at", "romaji": "jōzu"},
+    {"word": "かいわ", "meaning": "conversation", "romaji": "kaiwa"},
+    {"word": "だいたい", "meaning": "mostly, generally", "romaji": "daitai"},
+    {"word": "ふくおか", "meaning": "Fukuoka", "romaji": "Fukuoka"},
+    {"word": "せいかつします", "meaning": "live (a life)", "romaji": "seikatsu shimasu"}
+  ]
+}

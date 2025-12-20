@@ -1,0 +1,29 @@
+{
+  "id": 24,
+  "title": "にほんの おしょうがつ",
+  "title_romaji": "Nihon no oshōgatsu",
+  "text": "ことし、はじめて にほんで おしょうがつを すごしました。おしょうがつは にほんの いちばん たいせつな つきです。じぶんの くにとは ちがって、にほんでは いちがつ ついたちから さんにちまで やすみです。せんげつの おわりに、うちを そうじしました。おおそうじと いいます。それから おせちりょうりを かいました。おせちは とくべつな おしょうがつの りょうりです。ついたちの あさ、はつひのでを みに いきました。とても きれいでした。そとでは こどもたちが たこあげを していました。ともだちの うちへ あいさつに いきました。「あけまして おめでとうございます」と いいました。おとしだまも もらいました。にほんの おしょうがつは しずかで、あたたかい きぶんでした。らいねんも にほんで すごしたいです。",
+  "text_romaji": "Kotoshi, hajimete Nihon de oshōgatsu o sugoshimashita. Oshōgatsu wa Nihon no ichiban taisetsu na tsuki desu. Jibun no kuni to wa chigatte, Nihon de wa ichigatsu tsuitachi kara san'nichi made yasumi desu. Sengetsu no owari ni, uchi o sōji shimashita. Ōsōji to iimasu. Sorekara osechi ryōri o kaimashita. Osechi wa tokubetsu na oshōgatsu no ryōri desu. Tsuitachi no asa, hatsuhinode o mi ni ikimashita. Totemo kirei deshita. Soto de wa kodomotachi ga takoage o shite imashita. Tomodachi no uchi e aisatsu ni ikimashita. \"Akemashite omedetō gozaimasu\" to iimashita. Otoshidama mo moraimashita. Nihon no oshōgatsu wa shizuka de, atatakai kibun deshita. Rainen mo Nihon de sugoshitai desu.",
+  "english": "This year, I spent New Year's in Japan for the first time. New Year's is Japan's most important holiday. Different from my country, in Japan they have holidays from January 1st to 3rd. At the end of last month, I cleaned the house. It's called \"big cleaning.\" Then I bought osechi food. Osechi is special New Year's food. On the morning of the 1st, I went to see the first sunrise. It was very beautiful. Outside, children were flying kites. I went to a friend's house for greetings. I said, \"Happy New Year.\" I also received New Year's money. Japanese New Year's was quiet and had a warm feeling. I want to spend it in Japan next year too.",
+  "vocab": [
+    {"word": "おしょうがつ", "meaning": "New Year's", "romaji": "oshōgatsu"},
+    {"word": "つき", "meaning": "month, moon", "romaji": "tsuki"},
+    {"word": "ちがいます", "meaning": "is different", "romaji": "chigaimasu"},
+    {"word": "いちがつ", "meaning": "January", "romaji": "ichigatsu"},
+    {"word": "ついたち", "meaning": "1st day of month", "romaji": "tsuitachi"},
+    {"word": "そうじ", "meaning": "cleaning", "romaji": "sōji"},
+    {"word": "おおそうじ", "meaning": "big cleaning", "romaji": "ōsōji"},
+    {"word": "おせち", "meaning": "New Year's food", "romaji": "osechi"},
+    {"word": "とくべつ", "meaning": "special", "romaji": "tokubetsu"},
+    {"word": "はつひので", "meaning": "first sunrise of year", "romaji": "hatsuhinode"},
+    {"word": "たこあげ", "meaning": "kite flying", "romaji": "takoage"},
+    {"word": "あいさつ", "meaning": "greeting", "romaji": "aisatsu"},
+    {"word": "あけまして おめでとう", "meaning": "Happy New Year", "romaji": "akemashite omedetō"},
+    {"word": "おとしだま", "meaning": "New Year's money gift", "romaji": "otoshidama"},
+    {"word": "しずか", "meaning": "quiet", "romaji": "shizuka"},
+    {"word": "あたたかい", "meaning": "warm", "romaji": "atatakai"},
+    {"word": "きぶん", "meaning": "feeling, mood", "romaji": "kibun"},
+    {"word": "せんげつ", "meaning": "last month", "romaji": "sengetsu"},
+    {"word": "おわり", "meaning": "end", "romaji": "owari"}
+  ]
+}

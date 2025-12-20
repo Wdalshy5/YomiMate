@@ -1,0 +1,33 @@
+{
+  "id": 20,
+  "title": "ゆめの けいかく",
+  "title_romaji": "Yume no keikaku",
+  "text": "わたしには ゆめが あります。にほんで じぶんの カフェを ひらく ゆめです。そのために、まず おきゃくさんの きもちが わかるように、レストランで しごとを しています。つぎに、おかねを ためています。さんねんぐらい ためたら、ちいさな みせを かうつもりです。カフェでは わたしの くにの コーヒーと にほんの おかしを だします。まどが おおきくて、あかるい みせに したいです。へやの なかには ほんが たくさん あって、おきゃくさんが ゆっくり できるように したいです。もし うまく いったら、ふたつめの みせを ひらきたいです。いまは まだ ゆめですが、かならず じつげんしたいと おもっています。まいにち その ゆめを かんがえながら、がんばって しごとを しています。",
+  "text_romaji": "Watashi ni wa yume ga arimasu. Nihon de jibun no kafe o hiraku yume desu. Sono tame ni, mazu okyakusan no kimochi ga wakaru yō ni, resutoran de shigoto o shite imasu. Tsugi ni, okane o tamete imasu. Sannen gurai tametara, chiisana mise o kau tsumori desu. Kafe de wa watashi no kuni no kōhī to Nihon no okashi o dashimasu. Mado ga ōkikute, akarui mise ni shitai desu. Heya no naka ni wa hon ga takusan atte, okyakusan ga yukkuri dekiru yō ni shitai desu. Moshi umaku ittara, futatsume no mise o hirakitai desu. Ima wa mada yume desu ga, kanarazu jitsugen shitai to omotte imasu. Mainichi sono yume o kangae nagara, ganbatte shigoto o shite imasu.",
+  "english": "I have a dream. It's the dream of opening my own cafe in Japan. For that purpose, first, to understand customers' feelings, I'm working at a restaurant. Next, I'm saving money. When I've saved for about three years, I plan to buy a small shop. At the cafe, I'll serve coffee from my country and Japanese sweets. I want it to be a shop with big windows and be bright. Inside the room, I want there to be many books so customers can relax. If it goes well, I want to open a second shop. It's still just a dream now, but I believe I will definitely make it come true. Every day, while thinking about that dream, I'm working hard.",
+  "vocab": [
+    {"word": "ゆめ", "meaning": "dream", "romaji": "yume"},
+    {"word": "けいかく", "meaning": "plan", "romaji": "keikaku"},
+    {"word": "ひらきます", "meaning": "open (a shop)", "romaji": "hirakimasu"},
+    {"word": "おきゃくさん", "meaning": "customer", "romaji": "okyakusan"},
+    {"word": "きもち", "meaning": "feeling", "romaji": "kimochi"},
+    {"word": "ように", "meaning": "in order to, so that", "romaji": "yō ni"},
+    {"word": "ためます", "meaning": "save, accumulate", "romaji": "tamemasu"},
+    {"word": "さんねん", "meaning": "three years", "romaji": "sannen"},
+    {"word": "ぐらい", "meaning": "about, approximately", "romaji": "gurai"},
+    {"word": "ちいさな", "meaning": "small", "romaji": "chiisana"},
+    {"word": "みせ", "meaning": "shop, store", "romaji": "mise"},
+    {"word": "くに", "meaning": "country", "romaji": "kuni"},
+    {"word": "だします", "meaning": "serve, put out", "romaji": "dashimasu"},
+    {"word": "まど", "meaning": "window", "romaji": "mado"},
+    {"word": "おおきい", "meaning": "big", "romaji": "ōkii"},
+    {"word": "あかるい", "meaning": "bright", "romaji": "akarui"},
+    {"word": "なか", "meaning": "inside", "romaji": "naka"},
+    {"word": "もし", "meaning": "if", "romaji": "moshi"},
+    {"word": "うまく", "meaning": "well, successfully", "romaji": "umaku"},
+    {"word": "ふたつめ", "meaning": "second one", "romaji": "futatsume"},
+    {"word": "かならず", "meaning": "definitely", "romaji": "kanarazu"},
+    {"word": "じつげん", "meaning": "realization", "romaji": "jitsugen"},
+    {"word": "かんがえます", "meaning": "think", "romaji": "kangaemasu"}
+  ]
+}
