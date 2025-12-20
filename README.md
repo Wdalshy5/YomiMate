@@ -1,5 +1,8 @@
 
 
+<img width="284" height="77" alt="Screenshot 2025-12-20 at 13-54-29 YomiMate - Japanese Reading" src="https://github.com/user-attachments/assets/f03c55c0-1b71-408e-8a40-c038d5abad2e" />
+
+
 # YomiMate - Japanese Reading Practice 📖🇯🇵
 
 YomiMate is a web application designed to help learners practice reading Japanese stories with varying difficulty levels (N4-N5). The app features more than 50 stories, each with a dynamic voice reading feature (normal and slow speeds), and a line-highlighting feature to help users follow along with the reading.
@@ -18,6 +21,8 @@ YomiMate is a web application designed to help learners practice reading Japanes
 
 **Responsive Design** 📱💻: Built with responsiveness in mind, ensuring a smooth experience on both mobile and desktop devices.
 
+
+try it now at: https://yomimate.vercel.app/
 
 # Tech Stack 🛠️
 
