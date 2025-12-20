@@ -23,7 +23,7 @@ $(document).ready(function () {
                             <span class="text-5xl font-black text-[#f7931e] opacity-80 min-w-[70px]">${level.toUpperCase()}</span>
                             
                             <div class="flex flex-col overflow-hidden">
-                                <a href="/story/${level}/${index}" class="text-xl font-bold text-[#1d4e89] truncate">
+                                <a href="/story/${level}/${index-1}" class="text-xl font-bold text-[#1d4e89] truncate">
                                     ${story.title}
                                 </a>
                                 <p class="text-gray-400 text-sm font-medium">Level: ${level.toUpperCase()}</p>
