@@ -82,6 +82,7 @@ def get_stories(level):
     return jsonify(load_stories(level))
 @app.route("/story/<level>/<int:id>")
 def story(level, id):
+    id=id+1
     # Make sure level is correct
     if level not in ["n4", "n5"]:
         return "Invalid level", 400
