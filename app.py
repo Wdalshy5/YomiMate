@@ -88,19 +88,13 @@ def story(level, id):
 
     # Load stories for that level
     folder = os.path.join("stories", level)
-    stories = []
-    for filename in sorted(os.listdir(folder)):
-        if filename.endswith(".json"):
-            path = os.path.join(folder, filename)
-            with open(path, "r", encoding="utf-8") as f:
-                stories.append(json.load(f))
-
+    json_response=open(f'{folder}/story{id}.json', 'r', encoding='utf-8')
+    print(json_response)
+    stories = json.load(json_response)
     # Check if ID is valid
-    if id < 0 or id >= len(stories):
-        return "Story not found", 404
 
     # Pass the story object to template
-    return render_template("story.html", story=stories[id], level=level, id=id)
+    return render_template("story.html", story=stories, level=level, id=id)
 
 
 @app.route("/dashboard")

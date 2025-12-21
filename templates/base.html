@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}YomiMate - Japanese Reading{% endblock %}</title>
+    
+    <!-- Common CSS/JS dependencies -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Page-specific CSS -->
+    {% block css %}{% endblock %}
+    
+    <!-- Common styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fc;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .active-tab {
+            background: white;
+            color: #1d4e89;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .level-btn {
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="bg-[#f8f9fc] font-sans text-gray-800">
+    
+    <!-- Common header (can be overridden) -->
+    {% block header %}
+    <header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 md:h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="text-[#f7931e]">
+                    <i data-lucide="book-open-check" class="w-8 h-8 md:w-10 md:h-10"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-bold text-[#1d4e89] leading-none">
+                        <a href="{{ url_for('index') }}">YomiMate</a>
+                    </h1>
+                    <p class="hidden md:block text-[10px] font-semibold text-gray-500 tracking-widest uppercase">
+                        Japanese Reading Practice
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex gap-8 text-sm font-bold text-gray-500">
+                <a href="{{ url_for('index') }}" class="{% if request.endpoint == 'index' %}text-[#f7931e]{% else %}hover:text-[#1d4e89]{% endif %}">
+                    Home
+                </a>
+                <a href="#" class="hover:text-[#1d4e89]">Practice</a>
+                {% if current_user.is_authenticated %}
+                    <a href="#" class="hover:text-[#1d4e89]">Profile</a>
+                    <a href="#" class="hover:text-[#1d4e89]">Settings</a>
+                    <a href="{{ url_for('/logout') }}" class="hover:text-[#1d4e89]">Logout</a>
+                {% else %}
+                    <a href="{{ url_for('dashboard') }}" class="hover:text-[#1d4e89]">Login/Signup</a>
+                {% endif %}
+            </nav>
+        </div>
+    </header>
+    {% endblock %}
+    
+    <!-- Main content area -->
+    <main class="{% block main_class %}max-w-4xl mx-auto py-6 px-4{% endblock %}">
+        {% block content %}{% endblock %}
+    </main>
+    
+    <!-- Mobile Navigation (can be overridden) -->
+    {% block mobile_nav %}
+    <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-8 py-3 flex justify-between items-center shadow-lg">
+        <div class="flex flex-col items-center text-[#f7931e]">
+            <i data-lucide="home" class="w-6 h-6"></i>
+            <span class="text-[10px] font-bold mt-1">Home</span>
+        </div>
+        <div class="flex flex-col items-center text-gray-400">
+            <i data-lucide="dumbbell" class="w-6 h-6"></i>
+            <span class="text-[10px] font-bold mt-1">Practice</span>
+        </div>
+        <div class="flex flex-col items-center text-gray-400">
+            <i data-lucide="user-circle" class="w-6 h-6"></i>
+            <span class="text-[10px] font-bold mt-1">Profile</span>
+        </div>
+        <div class="flex flex-col items-center text-gray-400">
+            <i data-lucide="settings" class="w-6 h-6"></i>
+            <span class="text-[10px] font-bold mt-1">Settings</span>
+        </div>
+    </nav>
+    {% endblock %}
+    
+    <!-- Common scripts -->
+    <script>
+        // Initialize Lucide icons
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+        });
+    </script>
+    
+    <!-- Page-specific scripts -->
+    {% block scripts %}{% endblock %}
+    
+    <!-- Additional JS files -->
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
