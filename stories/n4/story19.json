@@ -1,0 +1,20 @@
+{
+  "id": 19,
+  "title": "文化の 違い",
+  "text": "大学で留学生として一年間アメリカに住みました。最初は文化の違いに驚くことばかりでした。例えば、アメリカでは知らない人にも笑顔で挨拶します。また、食事のマナーも日本とは違いました。ナイフとフォークの使い方に慣れるまで時間がかかりました。言葉の壁もあって、最初の三ヶ月はとても大変でした。しかし、ホストファミリーが親切にしてくれて、だんだんアメリカの生活に慣れていきました。今ではアメリカの友達もできて、英語もずっと上手になりました。文化の違いは時に不便ですが、新しい発見もたくさんあります。この経験を通して、視野が広がったと思います。異文化理解の大切さを身をもって学びました。",
+  "title_romaji": "Daigaku de ryūgakusei toshite ichinenkan Amerika ni sumimashita. Saisho wa bunka no chigai ni odoroku koto bakari deshita. Tatoeba, Amerika dewa shiranai hito ni mo egao de aisatsu shimasu. Mata, shokuji no manā mo Nihon to wa chigaimashita. Naifu to fōku no tsukaikata ni nareru made jikan ga kakarimashita. Kotoba no kabe mo atte, saisho no sankagetsu wa totemo taihen deshita. Shikashi, hosuto famirī ga shinsetsu ni shite kurete, dandan Amerika no seikatsu ni narete ikimashita. Ima dewa Amerika no tomodachi mo dekite, eigo mo zutto jōzu ni narimashita. Bunka no chigai wa toki ni fuben desu ga, atarashii hakken mo takusan arimasu. Kono keiken o tōshite, shiya ga hirogatta to omoimasu. Ibunka rikai no taisetsusa o mi o motte manabimashita.",
+  "english": "I lived in America for one year as an exchange student from university. At first, I was constantly surprised by cultural differences. For example, in America, people smile and greet even strangers. Also, table manners were different from Japan. It took time to get used to using a knife and fork. With the language barrier too, the first three months were very tough. However, my host family treated me kindly, and I gradually got used to American life. Now I've made American friends too, and my English has become much better. Cultural differences are sometimes inconvenient, but there are also many new discoveries. Through this experience, I think my perspective has broadened. I learned firsthand the importance of cross-cultural understanding.",
+  "vocab": [
+    {"word": "留学生（りゅうがくせい）", "meaning": "exchange student", "romaji": "ryūgakusei"},
+    {"word": "文化の違い（ぶんかのちがい）", "meaning": "cultural differences", "romaji": "bunka no chigai"},
+    {"word": "驚く（おどろく）", "meaning": "to be surprised", "romaji": "odoroku"},
+    {"word": "挨拶する（あいさつする）", "meaning": "to greet", "romaji": "aisatsu suru"},
+    {"word": "マナー", "meaning": "manners", "romaji": "manā"},
+    {"word": "言葉の壁（ことばのかべ）", "meaning": "language barrier", "romaji": "kotoba no kabe"},
+    {"word": "ホストファミリー", "meaning": "host family", "romaji": "hosuto famirī"},
+    {"word": "親切にする（しんせつにする）", "meaning": "to treat kindly", "romaji": "shinsetsu ni shu"},
+    {"word": "視野が広がる（しやがひろがる）", "meaning": "perspective broadens", "romaji": "shiya ga hirogaru"},
+    {"word": "異文化理解（いぶんかりかい）", "meaning": "cross-cultural understanding", "romaji": "ibunka rikai"},
+    {"word": "身をもって（みをもって）", "meaning": "firsthand, through experience", "romaji": "mi o motte"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 17,
+  "title": "失敗から 学ぶ",
+  "text": "高校生の時、料理の授業で大きな失敗をしました。ケーキを作っていたのですが、塩と砂糖を間違えてしまったのです。食べてみたら、とてもしょっぱくて、みんなに笑われました。その時は恥ずかしくて泣きそうになりましたが、先生が「失敗は成功のもとだよ」と励ましてくれました。それ以来、料理をする時は必ず材料を確認するようになりました。今では家族から「料理が上手になったね」と褒められるまでになりました。あの失敗がなければ、今の私の注意深さはなかったかもしれません。時々あの時のことを思い出して笑ってしまいます。",
+  "title_romaji": "Kōkōsei no toki, ryōri no jugyō de ōkina shippai o shimashita. Kēki o tsukutte ita no desu ga, shio to satō o machigaete shimatta no desu. Tabete mitara, totemo shoppakute, minna ni warawaremashita. Sono toki wa hazukashikute nakisō ni narimashita ga, sensei ga 'shippai wa seikō no moto da yo' to hagemashite kuremashita. Sore irai, ryōri o suru toki wa kanarazu zairyō o kakunin suru yō ni narimashita. Ima dewa kazoku kara 'ryōri ga jōzu ni natta ne' to homerareru made ni narimashita. Ano shippai ga nakereba, ima no watashi no chūibukasa wa nakatta kamo shiremasen. Tokidoki ano toki no koto o omoidashite waratte shimaimasu.",
+  "english": "In high school, I made a big mistake in cooking class. I was making a cake, but I mistook salt for sugar. When I tried eating it, it was very salty and everyone laughed at me. At that time I was so embarrassed I felt like crying, but the teacher encouraged me saying, 'Failure is the foundation of success.' Since then, when I cook, I always make sure to check the ingredients. Now I've even reached the point where my family praises me saying, 'Your cooking has become good.' Without that failure, I might not have my current carefulness. Sometimes I remember that time and laugh.",
+  "vocab": [
+    {"word": "失敗（しっぱい）", "meaning": "failure, mistake", "romaji": "shippai"},
+    {"word": "間違える（まちがえる）", "meaning": "to make a mistake", "romaji": "machigaeru"},
+    {"word": "しょっぱい", "meaning": "salty", "romaji": "shoppai"},
+    {"word": "笑われる（わらわれる）", "meaning": "to be laughed at", "romaji": "warawareru"},
+    {"word": "泣きそう（なきそう）", "meaning": "about to cry", "romaji": "nakisō"},
+    {"word": "励ます（はげます）", "meaning": "to encourage", "romaji": "hagemasu"},
+    {"word": "成功のもと（せいこうのもと）", "meaning": "foundation of success", "romaji": "seikō no moto"},
+    {"word": "注意深さ（ちゅういぶかさ）", "meaning": "carefulness", "romaji": "chūibukasa"}
+  ]
+}

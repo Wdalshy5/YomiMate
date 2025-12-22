@@ -1,0 +1,15 @@
+{
+  "id": 8,
+  "title": "古い 写真",
+  "text": "昨日部屋を掃除していた時、古い写真を見つけました。高校時代の写真です。友達と一緒に写っています。みんな若くて、今と全然違います。この写真を見て、懐かしい気持ちになりました。写真の中の友達の何人かとはまだ連絡を取っていますが、何人かとは全然会っていません。久しぶりに会ってみたいと思いました。",
+  "text_romaji": "Kinō heya o sōji shite ita toki, furui shashin o mitsukemashita. Kōkō jidai no shashin desu. Tomodachi to issho ni utsutte imasu. Minna wakakute, ima to zenzen chigaimasu. Kono shashin o mite, natsukashii kimochi ni narimashita. Shashin no naka no tomodachi no nanninka to wa mada renraku o totte imasu ga, nanninka to wa zenzen atte imasen. Hisashiburi ni atte mitai to omoimashita.",
+  "english": "Yesterday while cleaning my room, I found an old photo. It's from my high school days. I'm in the photo with friends. Everyone is young and completely different from now. Looking at this photo, I felt nostalgic. I'm still in contact with some of the friends in the photo, but I haven't met some of them at all. I thought I'd like to meet them after a long time.",
+  "vocab": [
+    {"word": "掃除する（そうじする）", "meaning": "to clean", "romaji": "sōji suru"},
+    {"word": "高校時代（こうこうじだい）", "meaning": "high school days", "romaji": "kōkō jidai"},
+    {"word": "写る（うつる）", "meaning": "to be photographed", "romaji": "utsuru"},
+    {"word": "全然違う（ぜんぜんちがう）", "meaning": "completely different", "romaji": "zenzen chigau"},
+    {"word": "懐かしい（なつかしい）", "meaning": "nostalgic", "romaji": "natsukashii"},
+    {"word": "連絡を取る（れんらくをとる）", "meaning": "to be in contact", "romaji": "renraku o toru"}
+  ]
+}

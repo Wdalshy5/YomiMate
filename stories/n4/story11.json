@@ -1,0 +1,15 @@
+{
+  "id": 11,
+  "title": "スポーツ ジムに 通う",
+  "text": "去年からスポーツジムに通い始めました。最初は一週間に一回だけでしたが、今は三回行くようにしています。ジムにはいろいろな機械があって、最初はどう使うかわかりませんでした。インストラクターが丁寧に教えてくれました。運動した後は、いつも気持ちがすっきりします。体重も三キロ減りました。健康のために、これからも続けたいです。",
+  "title_romaji": "Kyonen kara supōtsu jimu ni kayoi hajimemashita. Saisho wa isshūkan ni ikkai dake deshita ga, ima wa sankai iku yō ni shite imasu. Jimu ni wa iroiro na kikai ga atte, saisho wa dō tsukau ka wakarimasen deshita. Insutorakutā ga teinei ni oshiete kuremashita. Undō shita ato wa, itsumo kimochi ga sukkiri shimasu. Taijū mo san-kiro herimashita. Kenkō no tame ni, kore kara mo tsuzuketai desu.",
+  "english": "I started going to a sports gym last year. At first it was only once a week, but now I make it a point to go three times. The gym has various machines, and at first I didn't know how to use them. An instructor taught me politely. After exercising, I always feel refreshed. My weight has also decreased by three kilograms. For my health, I want to continue from now on too.",
+  "vocab": [
+    {"word": "通う（かよう）", "meaning": "to commute, to attend regularly", "romaji": "kayou"},
+    {"word": "〜ようにしています", "meaning": "I make it a point to...", "romaji": "~yō ni shite imasu"},
+    {"word": "機械（きかい）", "meaning": "machine", "romaji": "kikai"},
+    {"word": "丁寧に（ていねいに）", "meaning": "politely, carefully", "romaji": "teinei ni"},
+    {"word": "すっきりする", "meaning": "to feel refreshed", "romaji": "sukkiri suru"},
+    {"word": "減る（へる）", "meaning": "to decrease", "romaji": "heru"}
+  ]
+}

@@ -1,12 +1,14 @@
 {
-  "title": "引越しの 準備",
-  "text": "来月、新しい アパートに 引っ越します。今週から 準備を 始めました。まず、いらない 物を 捨てなければ なりません。段ボール箱も 買ってきました。友達が 手伝ってくれると 言ってくれたので、安心しました。",
-  "english": "Next month, I'm moving to a new apartment. I started preparing from this week. First, I have to throw away unnecessary things. I also bought cardboard boxes. I was relieved because my friend said they would help me.",
+  "id": 2,
+  "title": "初めての そば",
+  "text": "昨日初めてそばを食べました。日本の友達が作ってくれました。食べる前に、写真を撮りました。味は思ったより薄かったですが、おいしかったです。作り方を教えてもらったので、今度自分で作ってみます。",
+  "text_romaji": "Kinō hajimete soba o tabemashita. Nihon no tomodachi ga tsukutte kuremashita. Taberu mae ni, shashin o torimashita. Aji wa omotta yori usukatta desu ga, oishikatta desu. Tsukurikata o oshiete moratta node, kondo jibun de tsukutte mimasu.",
+  "english": "Yesterday I ate soba for the first time. My Japanese friend made it for me. Before eating, I took a picture. The taste was milder than I thought, but it was delicious. Since I was taught how to make it, next time I'll try making it myself.",
   "vocab": [
-    {"word": "引越し（ひっこし）", "meaning": "moving"},
-    {"word": "準備（じゅんび）", "meaning": "preparation"},
-    {"word": "捨てなければなりません（すてなければなりません）", "meaning": "must throw away"},
-    {"word": "段ボール（だんぼーる）", "meaning": "cardboard"},
-    {"word": "安心（あんしん）", "meaning": "relieved"}
+    {"word": "そば", "meaning": "buckwheat noodles", "romaji": "soba"},
+    {"word": "〜てくれる", "meaning": "someone does for me", "romaji": "~te kureru"},
+    {"word": "思ったより（おもったより）", "meaning": "more than I thought", "romaji": "omotta yori"},
+    {"word": "教えてもらう（おしえてもらう）", "meaning": "to be taught (receive teaching)", "romaji": "oshiete morau"},
+    {"word": "作ってみる（つくってみる）", "meaning": "to try making", "romaji": "tsukutte miru"}
   ]
 }

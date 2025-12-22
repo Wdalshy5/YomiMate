@@ -1,0 +1,21 @@
+{
+  "id": 20,
+  "title": "未来の 夢",
+  "text": "私は将来、通訳になるのが夢です。そのためには、日本語だけでなく英語ももっと上手にならなければなりません。今は毎日三時間以上勉強しています。単語を覚えたり、リスニングの練習をしたりしています。来年は英語圏の国に留学する計画です。現地で生活しながら、生きた英語を学びたいです。通訳になるのは簡単ではありませんが、好きなことを仕事にできたら幸せだと思います。両親は「大変な仕事だからよく考えなさい」と言いますが、私は決心しています。世界の架け橋になることで、国際理解に貢献したいです。時々不安になることもありますが、夢に向かって一歩ずつ進んでいきます。十年後には、国際会議で活躍している自分を想像しながら、今日も勉強を続けます。",
+  "title_romaji": "Watashi wa shōrai, tsūyaku ni naru no ga yume desu. Sono tame ni wa, Nihongo dake dewa naku eigo mo motto jōzu ni naranakereba narimasen. Ima wa mainichi sanjikan ijō benkyō shite imasu. Tango o oboetari, risuningu no renshū o shitari shite imasu. Rainen wa eigoken no kuni ni ryūgaku suru keikaku desu. Genchi de seikatsu shinagara, ikita eigo o manabitai desu. Tsūyaku ni naru no wa kantan dewa arimasen ga, suki na koto o shigoto ni dekitara shiawase da to omoimasu. Ryōshin wa 'taihen na shigoto dakara yoku kangae nasai' to iimasu ga, watashi wa kesshin shite imasu. Sekai no kakehashi ni naru koto de, kokusai rikai ni kōken shitai desu. Tokidoki fuan ni naru koto mo arimasu ga, yume ni mukatte ippo zutsu susunde ikimasu. Jūnen go ni wa, kokusai kaigi de katsuyaku shite iru jibun o sōzō shinagara, kyō mo benkyō o tsuzukemasu.",
+  "english": "My dream for the future is to become an interpreter. For that, I must become better not only at Japanese but also at English. Now I study more than three hours every day. I memorize vocabulary, practice listening, and so on. Next year I plan to study abroad in an English-speaking country. While living there, I want to learn living English. Becoming an interpreter isn't easy, but I think I'll be happy if I can make my passion into a job. My parents say, 'It's a tough job so think carefully,' but I'm determined. By becoming a bridge between worlds, I want to contribute to international understanding. Sometimes I become anxious too, but I advance step by step toward my dream. While imagining myself active in international conferences ten years from now, I continue studying today too.",
+  "vocab": [
+    {"word": "将来（しょうらい）", "meaning": "future", "romaji": "shōrai"},
+    {"word": "通訳（つうやく）", "meaning": "interpreter", "romaji": "tsūyaku"},
+    {"word": "英語圏（えいごけん）", "meaning": "English-speaking world", "romaji": "eigoken"},
+    {"word": "生きた英語（いきたえいご）", "meaning": "living/real English", "romaji": "ikita eigo"},
+    {"word": "幸せ（しあわせ）", "meaning": "happiness", "romaji": "shiawase"},
+    {"word": "決心する（けっしんする）", "meaning": "to be determined", "romaji": "kesshin suru"},
+    {"word": "架け橋（かけはし）", "meaning": "bridge", "romaji": "kakehashi"},
+    {"word": "国際理解（こくさいりかい）", "meaning": "international understanding", "romaji": "kokusai rikai"},
+    {"word": "貢献する（こうけんする）", "meaning": "to contribute", "romaji": "kōken suru"},
+    {"word": "不安（ふあん）", "meaning": "anxiety", "romaji": "fuan"},
+    {"word": "一歩ずつ（いっぽずつ）", "meaning": "step by step", "romaji": "ippo zutsu"},
+    {"word": "活躍する（かつやくする）", "meaning": "to be active, play active role", "romaji": "katsuyaku suru"}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 6,
+  "title": "病気で 寝て いました",
+  "text": "先週風邪をひいて、三日間寝ていました。熱が高くて、何も食べたくありませんでした。友達がスープを持って来てくれました。病院に行かなければならなかったけど、歩く元気がありませんでした。今はだいぶ良くなりました。病気の時は、家族が恋しくなります。次はもっと気をつけます。",
+  "text_romaji": "Senshū kaze o hiite, mikkan nete imashita. Netsu ga takakute, nani mo tabetaku arimasen deshita. Tomodachi ga sūpu o motte kite kuremashita. Byōin ni ikanakereba naranakatta kedo, aruku genki ga arimasen deshita. Ima wa daibu yoku narimashita. Byōki no toki wa, kazoku ga koishiku narimasu. Tsugi wa motto ki o tsukemasu.",
+  "english": "Last week I caught a cold and was in bed for three days. I had a high fever and didn't want to eat anything. A friend brought me soup. I should have gone to the hospital, but I didn't have the energy to walk. Now I'm much better. When I'm sick, I miss my family. Next time I'll be more careful.",
+  "vocab": [
+    {"word": "風邪をひく（かぜをひく）", "meaning": "to catch a cold", "romaji": "kaze o hiku"},
+    {"word": "〜なければならない", "meaning": "must, have to", "romaji": "~nakereba naranai"},
+    {"word": "元気（げんき）", "meaning": "energy, health", "romaji": "genki"},
+    {"word": "だいぶ", "meaning": "considerably, much", "romaji": "daibu"},
+    {"word": "恋しい（こいしい）", "meaning": "to miss, to yearn for", "romaji": "koishii"}
+  ]
+}

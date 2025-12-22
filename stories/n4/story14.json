@@ -1,0 +1,16 @@
+{
+  "id": 14,
+  "title": "ボランティア 活動",
+  "text": "今年から老人ホームでボランティアをしています。毎週日曜日に、お年寄りの話し相手になります。最初は何を話せばいいかわかりませんでしたが、今ではいろいろな話ができるようになりました。あるおばあさんは戦争の時の話をしてくれました。別のおじいさんは将棋を教えてくれました。お年寄りたちは私が来るのを楽しみに待っていてくれます。ボランティアは大変なこともありますが、人の役に立てるのは嬉しいです。これからも続けていきたいと思います。",
+  "romaji": "Kotoshi kara rōjin hōmu de borantia o shite imasu. Maishū nichiyōbi ni, otoshiyori no hanashi aite ni narimasu. Saisho wa nani o hanaseba ii ka wakarimasen deshita ga, ima dewa iroiro na hanashi ga dekiru yō ni narimashita. Aru obāsan wa sensō no toki no hanashi o shite kuremashita. Betsu no ojīsan wa shōgi o oshiete kuremashita. Otoshiyori-tachi wa watashi ga kuru no o tanoshimi ni matte ite kuremasu. Borantia wa taihen na koto mo arimasu ga, hito no yaku ni tateru no wa ureshii desu. Kore kara mo tsuzukete ikitai to omoimasu.",
+  "english": "Since this year, I've been volunteering at a nursing home. Every Sunday, I become a conversation partner for the elderly. At first I didn't know what to talk about, but now I can talk about various things. One old woman told me stories from the war time. Another old man taught me shogi. The elderly look forward to and wait for my coming. Volunteering has its tough aspects too, but it's happy to be able to be useful to people. I think I want to continue from now on too.",
+  "vocab": [
+    {"word": "老人ホーム（ろうじんほーむ）", "meaning": "nursing home", "romaji": "rōjin hōmu"},
+    {"word": "お年寄り（おとしより）", "meaning": "elderly person", "romaji": "otoshiyori"},
+    {"word": "話し相手（はなしあいて）", "meaning": "conversation partner", "romaji": "hanashi aite"},
+    {"word": "戦争（せんそう）", "meaning": "war", "romaji": "sensō"},
+    {"word": "将棋（しょうぎ）", "meaning": "Japanese chess", "romaji": "shōgi"},
+    {"word": "役に立つ（やくにたつ）", "meaning": "to be useful", "romaji": "yaku ni tatsu"},
+    {"word": "続ける（つづける）", "meaning": "to continue", "romaji": "tsuzukeru"}
+  ]
+}

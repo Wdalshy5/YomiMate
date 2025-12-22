@@ -1,0 +1,16 @@
+{
+  "id": 13,
+  "title": "節約 生活",
+  "text": "最近、お金を貯めるために節約生活をしています。まず、外食を減らして家で食べるようにしました。そして、いらないものは買わないようにしています。電車で行けるところはバスやタクシーを使わずに電車で行きます。シャワーも短くするようになりました。最初は大変でしたが、今では節約が楽しくなりました。貯まったお金で来年ヨーロッパ旅行に行くのが目標です。友達は「変わったね」と言いますが、いい変化だと思います。",
+  "title_romaji": "Saikin, okane o tameru tame ni setsuyaku seikatsu o shite imasu. Mazu, gaishoku o herashite ie de taberu yō ni shimashita. Soshite, iranai mono wa kawanai yō ni shite imasu. Densha de ikeru tokoro wa basu ya takushī o tsukawazu ni densha de ikimasu. Shawā mo mijikaku suru yō ni narimashita. Saisho wa taihen deshita ga, ima dewa setsuyaku ga tanoshiku narimashita. Tamatta okane de rainen Yōroppa ryokō ni iku no ga mokuhyō desu. Tomodachi wa 'kawatta ne' to iimasu ga, ii henka da to omoimasu.",
+  "english": "Recently, I've been living frugally to save money. First, I reduced eating out and made it a point to eat at home. And I don't buy things I don't need. For places I can go by train, I go by train without using buses or taxis. I've also started taking shorter showers. At first it was tough, but now I've come to enjoy saving. My goal is to go on a trip to Europe next year with the saved money. My friends say 'You've changed,' but I think it's a good change.",
+  "vocab": [
+    {"word": "節約（せつやく）", "meaning": "saving, economizing", "romaji": "setsuyaku"},
+    {"word": "外食（がいしょく）", "meaning": "eating out", "romaji": "gaishoku"},
+    {"word": "減らす（へらす）", "meaning": "to reduce", "romaji": "herasu"},
+    {"word": "〜ずに", "meaning": "without doing", "romaji": "~zu ni"},
+    {"word": "短くする（みじかくする）", "meaning": "to make shorter", "romaji": "mijikaku suru"},
+    {"word": "目標（もくひょう）", "meaning": "goal, target", "romaji": "mokuhyō"},
+    {"word": "変化（へんか）", "meaning": "change", "romaji": "henka"}
+  ]
+}

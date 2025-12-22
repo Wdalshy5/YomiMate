@@ -1,0 +1,15 @@
+{
+  "id": 9,
+  "title": "父の 趣味",
+  "text": "父の趣味は野菜を作ることです。庭にいろいろな野菜を植えています。トマト、きゅうり、なすなどです。夏になると、毎日水をやらなければなりません。父は「野菜は愛情を込めて作ると美味しくなる」と言っています。確かに、父の野菜はスーパーの野菜より美味しいです。私も時々手伝いますが、虫が苦手なので、あまり好きではありません。",
+  "text_romaji": "Chichi no shumi wa yasai o tsukuru koto desu. Niwa ni iroiro na yasai o uete imasu. Tomato, kyūri, nasu nado desu. Natsu ni naru to, mainichi mizu o yaranakereba narimasen. Chichi wa 'yasai wa aijō o kokumete tsukuru to oishiku naru' to itte imasu. Tashika ni, chichi no yasai wa sūpā no yasai yori oishii desu. Watashi mo tokidoki tetsudaimasu ga, mushi ga nigate na node, amari suki dewa arimasen.",
+  "english": "My father's hobby is growing vegetables. He plants various vegetables in the garden. Tomatoes, cucumbers, eggplants, etc. When summer comes, he must water them every day. My father says, 'Vegetables become delicious when grown with love.' Certainly, my father's vegetables are more delicious than supermarket vegetables. I also help sometimes, but since I'm not good with insects, I don't really like it.",
+  "vocab": [
+    {"word": "趣味（しゅみ）", "meaning": "hobby", "romaji": "shumi"},
+    {"word": "植える（うえる）", "meaning": "to plant", "romaji": "ueru"},
+    {"word": "水をやる（みずをやる）", "meaning": "to water (plants)", "romaji": "mizu o yaru"},
+    {"word": "愛情を込める（あいじょうをこめる）", "meaning": "to put love into", "romaji": "aijō o komeru"},
+    {"word": "確かに（たしかに）", "meaning": "certainly, indeed", "romaji": "tashika ni"},
+    {"word": "苦手（にがて）", "meaning": "poor at, not good with", "romaji": "nigate"}
+  ]
+}

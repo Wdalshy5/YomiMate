@@ -1,0 +1,15 @@
+{
+  "id": 7,
+  "title": "スーパーで アルバイト",
+  "text": "今年の夏、スーパーでアルバイトを始めました。レジでお客さんと話すのが最初は緊張しました。でも、今は慣れました。お客さんの中には優しい人もいれば、厳しい人もいます。アルバイトのお金で新しいパソコンを買う予定です。働くのは大変ですが、お金が貯まるのは嬉しいです。",
+  "text_romaji": "Kotoshi no natsu, sūpā de arubaito o hajimemashita. Reji de okyakusan to hanasu no ga saisho wa kinchō shimashita. Demo, ima wa naremashita. Okyakusan no naka ni wa yasashii hito mo ireba, kibishii hito mo imasu. Arubaito no okane de atarashii pasokon o kau yotei desu. Hataraku no wa taihen desu ga, okane ga tamaru no wa ureshii desu.",
+  "english": "This summer, I started a part-time job at a supermarket. At first I was nervous talking to customers at the register. But now I'm used to it. Among customers, there are both kind people and strict people. I plan to buy a new computer with the part-time job money. Working is tough, but it's happy that money is saved.",
+  "vocab": [
+    {"word": "アルバイト", "meaning": "part-time job", "romaji": "arubaito"},
+    {"word": "レジ", "meaning": "cash register", "romaji": "reji"},
+    {"word": "緊張する（きんちょうする）", "meaning": "to be nervous", "romaji": "kinchō suru"},
+    {"word": "慣れる（なれる）", "meaning": "to get used to", "romaji": "nareru"},
+    {"word": "〜もいれば〜もいる", "meaning": "there are both... and...", "romaji": "~mo ireba ~mo iru"},
+    {"word": "貯まる（たまる）", "meaning": "to accumulate, to be saved", "romaji": "tamaru"}
+  ]
+}

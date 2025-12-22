@@ -1,12 +1,13 @@
 {
-  "title": "アルバイトの 面接",
-  "text": "昨日、レストランの アルバイトの 面接を 受けました。店長さんに いろいろな 質問を されました。例えば、なぜ この店で 働きたいか、どんな 経験が あるかなどです。緊張しましたが、しっかり 答えました。結果は 来週 わかります。",
-  "english": "Yesterday, I had an interview for a part-time job at a restaurant. The manager asked me various questions. For example, why I want to work at this store, what kind of experience I have, etc. I was nervous, but I answered properly. I'll know the results next week.",
+  "id": 1,
+  "title": "母の プレゼント",
+  "text": "来週母の誕生日です。何をあげようかまだ決めていません。花が好きだから、花を買おうと思いましたが、すぐに枯れてしまいます。だから、本かマフラーを買うつもりです。",
+  "text_romaji": "Raishū haha no tanjōbi desu. Nani o ageyō ka mada kimete imasen. Hana ga suki dakara, hana o kaō to omoimashita ga, sugu ni karete shimaimasu. Dakara, hon ka mafurā o kau tsumori desu.",
+  "english": "Next week is my mother's birthday. I haven't decided what to give her yet. She likes flowers, so I thought about buying flowers, but they wither quickly. So I intend to buy a book or a scarf.",
   "vocab": [
-    {"word": "面接（めんせつ）", "meaning": "interview"},
-    {"word": "受けました（うけました）", "meaning": "took/received"},
-    {"word": "店長（てんちょう）", "meaning": "store manager"},
-    {"word": "質問（しつもん）", "meaning": "question"},
-    {"word": "緊張（きんちょう）", "meaning": "nervous"}
+    {"word": "誕生日（たんじょうび）", "meaning": "birthday", "romaji": "tanjōbi"},
+    {"word": "あげよう", "meaning": "let's give (volitional form)", "romaji": "ageyō"},
+    {"word": "枯れる（かれる）", "meaning": "to wither, to die", "romaji": "kareru"},
+    {"word": "つもりです", "meaning": "intend to, plan to", "romaji": "tsumori desu"}
   ]
 }

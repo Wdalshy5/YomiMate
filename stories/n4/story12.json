@@ -1,0 +1,15 @@
+{
+  "id": 12,
+  "title": "国際 交流会",
+  "text": "大学で国際交流会がありました。いろいろな国の人が来て、自分の国の料理を持って来ました。私は日本に興味がある人に日本語を教えました。逆に、他の国の人からその国の言葉を少し習いました。みんなでゲームをしたり、歌を歌ったりしました。とても楽しくて、あっという間に時間が過ぎました。新しい友達もできました。次は私が何か料理を作って行こうと思っています。",
+  "title_romaji": "Daigaku de kokusai kōryūkai ga arimashita. Iroiro na kuni no hito ga kite, jibun no kuni no ryōri o motte kimashita. Watashi wa Nihon ni kyōmi ga aru hito ni nihongo o oshiemashita. Gyaku ni, hoka no kuni no hito kara sono kuni no kotoba o sukoshi naraimashita. Minna de gēmu o shitari, uta o utattari shimashita. Totemo tanoshikute, atto iu ma ni jikan ga sugimashita. Atarashii tomodachi mo dekimashita. Tsugi wa watashi ga nanika ryōri o tsukutte ikō to omotte imasu.",
+  "english": "There was an international exchange meeting at the university. People from various countries came, bringing food from their own countries. I taught Japanese to people interested in Japan. Conversely, I learned a little of other countries' languages from people from those countries. We played games, sang songs, and so on. It was so fun that time passed in the blink of an eye. I also made new friends. Next time I'm thinking of making some food and bringing it.",
+  "vocab": [
+    {"word": "国際（こくさい）", "meaning": "international", "romaji": "kokusai"},
+    {"word": "交流会（こうりゅうかい）", "meaning": "exchange meeting", "romaji": "kōryūkai"},
+    {"word": "興味がある（きょうみがある）", "meaning": "to be interested in", "romaji": "kyōmi ga aru"},
+    {"word": "逆に（ぎゃくに）", "meaning": "conversely, on the contrary", "romaji": "gyaku ni"},
+    {"word": "あっという間に（あっというまに）", "meaning": "in the blink of an eye", "romaji": "atto iu ma ni"},
+    {"word": "過ぎる（すぎる）", "meaning": "to pass (time)", "romaji": "sugiru"}
+  ]
+}

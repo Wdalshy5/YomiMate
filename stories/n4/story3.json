@@ -1,12 +1,14 @@
 {
-  "title": "日本の 習慣に 慣れる",
-  "text": "日本に 来てから 三ヶ月が 経ちました。最初は 日本の 習慣に 慣れるのが 大変でした。例えば、靴を 脱ぐことや、お辞儀を することなどです。でも、今では ほとんど 慣れてきました。まだ 覚えることが たくさん ありますが、毎日 勉強しています。",
-  "english": "It's been three months since I came to Japan. At first, it was difficult to get used to Japanese customs. For example, taking off shoes and bowing. But now I've mostly gotten used to it. There are still many things to remember, but I study every day.",
+  "id": 3,
+  "title": "日本語の クラス",
+  "text": "日本語のクラスで作文を書きました。先生は「もっと漢字を使ってください」と言いました。でも、漢字はまだ難しすぎます。家に帰ってから、辞書を使いながら書き直しました。次のクラスで先生に見せます。いい点数がもらえるといいですね。",
+  "text_romaji": "Nihongo no kurasu de sakubun o kakimashita. Sensei wa 'motto kanji o tsukatte kudasai' to iimashita. Demo, kanji wa mada muzukashisugimasu. Ie ni kaette kara, jisho o tsukainagara kakinaoshimashita. Tsugi no kurasu de sensei ni misemasu. Ii tensū ga moraeru to ii desu ne.",
+  "english": "I wrote an essay in Japanese class. The teacher said, 'Please use more kanji.' But kanji is still too difficult. After returning home, I rewrote it while using a dictionary. I'll show it to the teacher in the next class. I hope I can get a good grade.",
   "vocab": [
-    {"word": "習慣（しゅうかん）", "meaning": "customs"},
-    {"word": "慣れる（なれる）", "meaning": "get used to"},
-    {"word": "経ちました（たちました）", "meaning": "passed (time)"},
-    {"word": "お辞儀（おじぎ）", "meaning": "bow"},
-    {"word": "覚える（おぼえる）", "meaning": "remember"}
+    {"word": "作文（さくぶん）", "meaning": "essay, composition", "romaji": "sakubun"},
+    {"word": "〜ながら", "meaning": "while doing", "romaji": "~nagara"},
+    {"word": "書き直す（かきなおす）", "meaning": "to rewrite", "romaji": "kakinaosu"},
+    {"word": "見せる（みせる）", "meaning": "to show", "romaji": "miseru"},
+    {"word": "〜といいですね", "meaning": "I hope that...", "romaji": "~to ii desu ne"}
   ]
 }

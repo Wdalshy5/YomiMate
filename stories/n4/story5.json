@@ -1,12 +1,14 @@
 {
-  "title": "日本の 祭りに 参加する",
-  "text": "先月、地元の 祭りに 参加しました。浴衣を 着て、みこしを 担ぎました。とても 重かったですが、楽しかったです。夜は 花火が 上がりました。日本の 伝統文化を 体験できて、いい 思い出に なりました。",
-  "english": "Last month, I participated in a local festival. I wore a yukata and carried a mikoshi (portable shrine). It was very heavy but fun. At night, fireworks went up. I was able to experience Japanese traditional culture, and it became a good memory.",
+  "id": 5,
+  "title": "引っ越しの 準備",
+  "text": "来月アパートを引っ越します。今から段ボール箱を集めています。たくさん荷物があるので、大変です。特に本が重くて困ります。友達に手伝ってもらう約束をしました。引っ越したら、近くのカフェでお礼にご飯を食べに行きます。新しい家が楽しみです。",
+  "text_romaji": "Raigetsu apāto o hikkoshimasu. Ima kara danbōru hako o atsumete imasu. Takusan nimotsu ga aru node, taihen desu. Tokuni hon ga omokute komarimasu. Tomodachi ni tetsudatte morau yakusoku o shimashita. Hikkoshitara, chikaku no kafe de orei ni gohan o tabe ni ikimasu. Atarashii ie ga tanoshimi desu.",
+  "english": "I'm moving apartments next month. I'm collecting cardboard boxes from now. Since there are many things, it's tough. Especially the books are heavy and troublesome. I promised to have a friend help me. After moving, I'll go to eat at a nearby cafe as a thank you. I'm looking forward to the new house.",
   "vocab": [
-    {"word": "参加（さんか）", "meaning": "participate"},
-    {"word": "浴衣（ゆかた）", "meaning": "summer kimono"},
-    {"word": "みこし", "meaning": "portable shrine"},
-    {"word": "担ぎました（かつぎました）", "meaning": "carried"},
-    {"word": "伝統（でんとう）", "meaning": "tradition"}
+    {"word": "引っ越す（ひっこす）", "meaning": "to move (house)", "romaji": "hikkosu"},
+    {"word": "段ボール（だんぼーる）", "meaning": "cardboard", "romaji": "danbōru"},
+    {"word": "困る（こまる）", "meaning": "to be troubled, to have difficulty", "romaji": "komaru"},
+    {"word": "手伝う（てつだう）", "meaning": "to help", "romaji": "tetsudau"},
+    {"word": "楽しみ（たのしみ）", "meaning": "looking forward to", "romaji": "tanoshimi"}
   ]
 }

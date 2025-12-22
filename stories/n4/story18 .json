@@ -1,0 +1,19 @@
+{
+  "id": 18,
+  "title": "自然の 力",
+  "text": "去年の台風で、私の住んでいる地域は大きな被害を受けました。強風で家の屋根が壊れ、庭の木が倒れてしまいました。電気も三日間止まって、大変な思いをしました。しかし、近所の人たちが助け合っている姿を見て、感動しました。みんなで協力して、倒れた木を片付けました。壊れた家も、地域の人の手で直されました。自然の力の前に人間は無力だと感じましたが、同時に人間の優しさと強さも学びました。今では台風の準備をしっかりするようになりました。非常食や懐中電灯は常に準備してあります。自然を甘く見てはいけないと思います。",
+  "title_romaji": "Kyonen no taifū de, watashi no sunde iru chiiki wa ōkina higai o ukemashita. Kyōfū de ie no yane ga koware, niwa no ki ga taorete shimaimashita. Denki mo mikkakan tomatte, taihen na omoi o shimashita. Shikashi, kinjo no hitotachi ga tasukeatte iru sugata o mite, kandō shimashita. Minna de kyōryoku shite, taoreta ki o katazukemashita. Kowareta ie mo, chiiki no hito no te de naosaremashita. Shizen no chikara no mae de ningen wa muryoku da to kanjimashita ga, dōji ni ningen no yasashisa to tsuyosa mo manabimashita. Ima dewa taifū no junbi o shikkari suru yō ni narimashita. Hijōshoku ya kaichūdentō wa tsuneni junbi shite arimasu. Shizen o amaku mite wa ikenai to omoimasu.",
+  "english": "Last year's typhoon caused great damage to the area where I live. The strong wind broke the roof of my house, and trees in the garden fell over. The electricity was out for three days too, and I had a tough experience. However, I was moved seeing the neighbors helping each other. Everyone cooperated and cleaned up the fallen trees. The broken houses were also repaired by the hands of people in the area. I felt that humans are powerless before the force of nature, but at the same time I also learned about human kindness and strength. Now I make sure to prepare properly for typhoons. Emergency food and flashlights are always prepared. I think we must not underestimate nature.",
+  "vocab": [
+    {"word": "台風（たいふう）", "meaning": "typhoon", "romaji": "taifū"},
+    {"word": "被害を受ける（ひがいをうける）", "meaning": "to suffer damage", "romaji": "higai o ukeru"},
+    {"word": "屋根（やね）", "meaning": "roof", "romaji": "yane"},
+    {"word": "倒れる（たおれる）", "meaning": "to fall down", "romaji": "taoreru"},
+    {"word": "助け合う（たすけあう）", "meaning": "to help each other", "romaji": "tasukeau"},
+    {"word": "感動する（かんどうする）", "meaning": "to be moved/touched", "romaji": "kandō suru"},
+    {"word": "協力する（きょうりょくする）", "meaning": "to cooperate", "romaji": "kyōryoku suru"},
+    {"word": "非常食（ひじょうしょく）", "meaning": "emergency food", "romaji": "hijōshoku"},
+    {"word": "懐中電灯（かいちゅうでんとう）", "meaning": "flashlight", "romaji": "kaichūdentō"},
+    {"word": "甘く見る（あまくみる）", "meaning": "to underestimate", "romaji": "amaku miru"}
+  ]
+}

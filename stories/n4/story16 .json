@@ -1,0 +1,17 @@
+{
+  "id": 16,
+  "title": "犬の 訓練",
+  "text": "私は去年から犬を飼い始めました。名前はチョコです。最初は何もできませんでしたが、今では「おすわり」や「まて」ができます。毎日公園に連れて行って、ボール遊びをしています。チョコはとても頭が良くて、新しいことをすぐに覚えます。先週は「お手」もできるようになりました。でも、たまにいたずらをして、私の靴を隠してしまいます。それでも、チョコが家族の一員になってくれて、本当に嬉しいです。犬を飼うのは大変ですが、その分楽しいこともたくさんあります。これからもチョコとたくさんの思い出を作りたいです。",
+  "title_romaji": "Watashi wa kyonen kara inu o kai hajimemashita. Namae wa Choko desu. Saisho wa nani mo dekimasen deshita ga, ima dewa 'osuwari' ya 'mate' ga dekimasu. Mainichi kōen ni tsurete itte, bōru asobi o shite imasu. Choko wa totemo atama ga yokute, atarashii koto o sugu ni oboemasu. Senshū wa 'ote' mo dekiru yō ni narimashita. Demo, tama ni itazura o shite, watashi no kutsu o kakushite shimaimasu. Soredemo, Choko ga kazoku no ichiin ni natte kurete, hontōni ureshii desu. Inu o kau no wa taihen desu ga, sono bun tanoshii koto mo takusan arimasu. Kore kara mo Choko to takusan no omoide o tsukuritai desu.",
+  "english": "I started keeping a dog last year. His name is Choco. At first he couldn't do anything, but now he can do 'sit' and 'stay.' Every day I take him to the park and we play ball. Choco is very smart and learns new things quickly. Last week he also became able to do 'shake hands.' But sometimes he plays pranks and hides my shoes. Even so, I'm really happy that Choco has become a family member. Keeping a dog is tough, but there are just as many fun things. I want to make many more memories with Choco from now on.",
+  "vocab": [
+    {"word": "飼う（かう）", "meaning": "to keep (a pet)", "romaji": "kau"},
+    {"word": "おすわり", "meaning": "sit (command)", "romaji": "osuwari"},
+    {"word": "まて", "meaning": "stay (command)", "romaji": "mate"},
+    {"word": "連れて行く（つれていく）", "meaning": "to take someone", "romaji": "tsurete iku"},
+    {"word": "頭が良い（あたまがいい）", "meaning": "smart", "romaji": "atama ga ii"},
+    {"word": "覚える（おぼえる）", "meaning": "to memorize, learn", "romaji": "oboeru"},
+    {"word": "いたずら", "meaning": "mischief, prank", "romaji": "itazura"},
+    {"word": "一員（いちいん）", "meaning": "member", "romaji": "ichiin"}
+  ]
+}

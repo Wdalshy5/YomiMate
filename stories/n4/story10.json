@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "title": "子供の 頃の 思い出",
+  "text": "子供の頃、よく祖母の家に泊まりに行きました。祖母の家は田舎にあって、周りは田んぼばかりでした。夜になると、星がとても綺麗でした。祖母はいつもおいしいご飯を作ってくれました。特にカレーが好きでした。今でもカレーのにおいをかぐと、祖母の家を思い出します。祖母はもういませんが、あの時の思い出は私の宝物です。",
+  "text_romaji": "Kodomo no koro, yoku sobo no ie ni tomari ni ikimashita. Sobo no ie wa inaka ni atte, mawari wa tanbo bakari deshita. Yoru ni naru to, hoshi ga totemo kirei deshita. Sobo wa itsumo oishii gohan o tsukutte kuremashita. Tokuni karē ga suki deshita. Ima demo karē no nioi o kagu to, sobo no ie o omoidashimasu. Sobo wa mō imasen ga, ano toki no omoide wa watashi no takaramono desu.",
+  "english": "When I was a child, I often went to stay at my grandmother's house. My grandmother's house was in the countryside, surrounded only by rice fields. When night came, the stars were very beautiful. My grandmother always made delicious meals for me. I especially liked curry. Even now when I smell curry, I remember my grandmother's house. My grandmother is no longer here, but those memories are my treasure.",
+  "vocab": [
+    {"word": "子供の頃（こどものころ）", "meaning": "childhood", "romaji": "kodomo no koro"},
+    {"word": "泊まる（とまる）", "meaning": "to stay overnight", "romaji": "tomaru"},
+    {"word": "田舎（いなか）", "meaning": "countryside", "romaji": "inaka"},
+    {"word": "田んぼ（たんぼ）", "meaning": "rice field", "romaji": "tanbo"},
+    {"word": "思い出す（おもいだす）", "meaning": "to remember", "romaji": "omoidasu"},
+    {"word": "宝物（たからもの）", "meaning": "treasure", "romaji": "takaramono"}
+  ]
+}

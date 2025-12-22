@@ -1,0 +1,19 @@
+{
+  "id": 15,
+  "title": "人生の 転機",
+  "text": "三年前、私は大きな会社を辞めて、小さなカフェを開きました。周りの人には反対されましたが、自分の夢を追いたかったのです。最初の一年はお客さんが少なくて、赤字続きでした。でも、諦めずに美味しいコーヒーとケーキを作り続けました。二年目から口コミでお客さんが増え始めました。今では地元の人に愛されるカフェになりました。仕事は以前より忙しいですが、充実しています。時々大変なこともありますが、自分の選択を後悔していません。人生で一番正しい決断だったと思います。",
+  "title_romaji": "Sannen mae, watashi wa ōkina kaisha o yamete, chiisana kafe o hirakimashita. Mawari no hito ni wa hantai saremashita ga, jibun no yume o oitakatta no desu. Saisho no ichinen wa okyakusan ga sukunakute, akaji tsuzuki deshita. Demo, akiramezu ni oishii kōhī to kēki o tsukuritsuzukemashita. Ninenme kara kuchikumi de okyakusan ga fue hajimemashita. Ima dewa jimoto no hito ni aisareru kafe ni narimashita. Shigoto wa izen yori isogashii desu ga, jūjitsu shite imasu. Tokidoki taihen na koto mo arimasu ga, jibun no sentaku o kōkai shite imasen. Jinsei de ichiban tadashii ketsudan datta to omoimasu.",
+  "english": "Three years ago, I quit a big company and opened a small cafe. People around me opposed it, but I wanted to pursue my dream. The first year, customers were few and it was continuously in the red. But without giving up, I continued making delicious coffee and cakes. From the second year, customers began increasing through word of mouth. Now it has become a cafe loved by local people. Work is busier than before, but I feel fulfilled. Sometimes there are tough things, but I don't regret my choice. I think it was the most correct decision in my life.",
+  "vocab": [
+    {"word": "転機（てんき）", "meaning": "turning point", "romaji": "tenki"},
+    {"word": "開く（ひらく）", "meaning": "to open (a business)", "romaji": "hiraku"},
+    {"word": "反対される（はんたいされる）", "meaning": "to be opposed", "romaji": "hantai sareru"},
+    {"word": "夢を追う（ゆめをおう）", "meaning": "to pursue a dream", "romaji": "yume o ou"},
+    {"word": "赤字（あかじ）", "meaning": "deficit, in the red", "romaji": "akaji"},
+    {"word": "諦めずに（あきらめずに）", "meaning": "without giving up", "romaji": "akiramezu ni"},
+    {"word": "口コミ（くちこみ）", "meaning": "word of mouth", "romaji": "kuchikumi"},
+    {"word": "充実する（じゅうじつする）", "meaning": "to be fulfilling", "romaji": "jūjitsu suru"},
+    {"word": "後悔する（こうかいする）", "meaning": "to regret", "romaji": "kōkai suru"},
+    {"word": "決断（けつだん）", "meaning": "decision", "romaji": "ketsudan"}
+  ]
+}

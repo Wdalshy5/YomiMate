@@ -1,12 +1,14 @@
 {
-  "title": "初めての 温泉",
-  "text": "先週末、初めて 温泉に 行きました。最初は 裸に なるのが 恥ずかしかったですが、すぐに 慣れました。お湯は とても 気持ちよくて、景色も 素晴らしかったです。帰りに 温泉卵を 食べました。また 行きたいと思います。",
-  "english": "Last weekend, I went to a hot spring for the first time. At first, I was embarrassed to be naked, but I quickly got used to it. The hot water was very comfortable and the scenery was wonderful. On the way back, I ate hot spring eggs. I think I want to go again.",
+  "id": 4,
+  "title": "東京で 迷子",
+  "text": "先月東京に行った時、迷子になりました。地図を持っていなかったからです。おばあさんに道を聞きましたが、説明が速すぎてわかりませんでした。結局、タクシーに乗ってホテルに帰りました。今度はスマホの地図アプリをダウンロードしておきます。",
+  "text_romaji": "Sengetsu Tōkyō ni itta toki, maigo ni narimashita. Chizu o motte inakatta kara desu. Obāsan ni michi o kikimashita ga, setsumei ga hayasugite wakarimasen deshita. Kekkyoku, takushī ni notte hoteru ni kaerimashita. Kondo wa sumaho no chizu apuri o daunrōdo shite okimasu.",
+  "english": "When I went to Tokyo last month, I got lost. It was because I didn't have a map. I asked an old woman for directions, but the explanation was too fast and I didn't understand. In the end, I took a taxi and returned to the hotel. Next time I'll download a map app on my smartphone in advance.",
   "vocab": [
-    {"word": "温泉（おんせん）", "meaning": "hot spring"},
-    {"word": "裸（はだか）", "meaning": "naked"},
-    {"word": "恥ずかしい（はずかしい）", "meaning": "embarrassed"},
-    {"word": "景色（けしき）", "meaning": "scenery"},
-    {"word": "温泉卵（おんせんたまご）", "meaning": "hot spring egg"}
+    {"word": "迷子（まいご）", "meaning": "lost child, lost person", "romaji": "maigo"},
+    {"word": "道を聞く（みちをきく）", "meaning": "to ask for directions", "romaji": "michi o kiku"},
+    {"word": "速すぎて（はやすぎて）", "meaning": "too fast", "romaji": "hayasugite"},
+    {"word": "結局（けっきょく）", "meaning": "in the end, eventually", "romaji": "kekkyoku"},
+    {"word": "〜ておきます", "meaning": "to do in advance", "romaji": "~te okimasu"}
   ]
 }
